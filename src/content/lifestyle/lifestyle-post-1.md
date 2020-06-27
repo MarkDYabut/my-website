@@ -8,8 +8,6 @@ path: "/blog/lifestyle-post-1"
 
 I have always found myself struggling to maintain consistent motivation when in pursuit of my goals. I would find that motivation would come in bursts, and then exponentially dissipate over time.
 
-I would find myself consistently never able to consistently sustain motivation over long periods of time, but recently I made a interesting discovery about motivation in relation to myself.
-
 I think it could be agreed upon that motivation is finite; it is something equivalent to a "health bar" or a "mana bar." It would be something that increases over time and is depleted when used up. An example would be learning a certain skill. In order to do that act of learning; some sort of motivation is required to initiate and sustain that act, and as a result motivation is depleted with time.
 
 An occurence occured on one of my runs. I had taken up the challenge to run 40km in a month and found myself absolutely struggling in the initial phases. Yes, one can argue that there are gains that occur after each iteration in terms of ability and therefore overall feel. But something different happened at the halfway point, something I would not attribute to gains in overall ability.
