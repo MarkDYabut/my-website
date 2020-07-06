@@ -5,6 +5,7 @@ draft: false
 category: "lifestyle"
 path: "/blog/lifestyle-post-1"
 ---
+---
 
 I have always found myself struggling to maintain consistent motivation when in pursuit of my goals. I would find that motivation would come in bursts, and then exponentially dissipate over time.
 
@@ -70,3 +71,5 @@ Of course this example may be a bit of an extreme, I would want to emphasize the
 - How can we accurately gauge the motivation values themselves?
 - Can we quantify a singular underlying motivation category?
 - Does this motivation value exist in multiple categories?
+
+---
