@@ -26,4 +26,4 @@ Notion serves as a central backbone or hub; allowing for clarity and focus for a
 
 ###“We don’t rise to the highest version of ourselves that we can imagine, we fall to the level of our systems”
 
-It’s our systems that hold and catch us when we fall. Recently I had gone through some really desperate moments in life, but it was thanks to my systems that I was able to easily find the motivation to get out of those moments. I am a firm believer that if anyone has any sort of goal, what’s more important than the goal itself; is the systems leading up to that goal. Notion has the power to be the “operating system” for life.
+It’s our systems that hold and catch us when we fall. Recently I had gone through some really desperate moments in life, but it was thanks to my systems that I was able to easily find the motivation to get out of those moments. I am a firm believer that if anyone has any sort of goal, what’s more important than the goal itself; is the systems leading up to that goal. Notion has the power to be the “operating system” for life, a platform that allows for effective sub-system building.
