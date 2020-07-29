@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Mark Yabut`,
     subtitle: `aspiring systems developer`,
-    description: `A minimal blog built with Gatsbyjs.`,
-    author: `@niklasmtj`,
+    description: ``,
+    author: ``,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -75,4 +75,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
   ],
-}
+};
