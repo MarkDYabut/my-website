@@ -20,6 +20,8 @@ I have only been really digging deep into web development in the last 2 years, s
 
 Use this application as an example, try clicking between pages; it’s super fast!
 
+![pic](./lighthouse.png)
+
 ###Use Gatsby to learn the basics
 
 What Gatsby provides is an environment where you start with all the new technologies configured and a structure that allows for the learning of the basics. Instead of ending up with tons of mini side projects resulting from tutorials, you can build all of those pages within a single Gatsby application. By starting with Gatsby, and building out your test cases within the Gatsby ecosystem, you’ll end up with your own personalized documentation, an approach I wish I had taken when first getting into web development. Instead what I ended up with is probably at least 100 different folders of mini projects from tutorials, which I tried to structure within different folders, but just never could come up with a sustainable system for organizing them all.
