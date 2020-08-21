@@ -1,15 +1,15 @@
-import React from "react"
-import styled from "@emotion/styled"
+import React from "react";
+import styled from "@emotion/styled";
 
-import LandingBio from "../components/landing-bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import LandingBio from "../components/landing-bio";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
   padding: 1.45rem 1.0875rem;
-`
+`;
 
 const IndexPage = () => (
   <Layout>
@@ -25,11 +25,9 @@ const IndexPage = () => (
       </p>
       <h2>Who I am</h2>
       <p>
-        I am currently a new graduate from Ryerson University with a Bachelor of
-        Engineering from Ryerson University. I have experience working as a data
-        analyst for a small sized advertising company called Direct Target
-        Promotions. I currently work part time as a telecommunications
-        technician for Bell Canada.
+        I am a new 2020 graduate from Ryerson University with a Bachelor of
+        Engineering from Ryerson University. I currently work part time as a
+        telecommunications technician for Bell Canada.
       </p>
       <h2>What I do for fun</h2>
       <p>
@@ -52,17 +50,17 @@ const IndexPage = () => (
             programming courses.
           </li>
           <li>
-            3. Optimization: This topic really has resonated with me most
-            recently. I have found serious drive and enjoyment creating
-            optimized, efficient, and sustainable systems for myself. What i've
-            found is required for such systems is iteration; I one day hope that
-            my journey towards optimizing my life will help someone, even if
-            only by a little.
+            3. Optimize: This topic really has resonated with me most recently.
+            I have found serious drive and enjoyment creating optimized,
+            efficient, and sustainable systems for myself. What i've found is
+            required for such systems is iteration; I one day hope that my
+            journey towards optimizing my life will help someone, even if only
+            by a little.
           </li>
         </ul>
       </p>
     </Content>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
