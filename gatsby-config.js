@@ -5,13 +5,27 @@ module.exports = {
     description: `Mark Yabut Website`,
     author: `Mark Yabut`,
   },
+
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-176069437-1",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-MCNLZDD",
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
-        path: `${__dirname}/src/content/tech`,
+        path: `${__dirname}/src/content`,
       },
     },
     {
