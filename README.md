@@ -1,15 +1,3 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Starter Julia
-</h1>
-
-[GatsbyJS](https://www.gatsbyjs.org/) is a free and open source static website builder build on React. It's one implementation of the [JAMstack](https://jamstack.org/) idea which creates high speed webpages.
-
 ## 📚 Features:
 
 - Landingpage
@@ -52,7 +40,7 @@ The Nunito typeface is included as a npm module in `gatsby-browser.js` and in `/
 
 ---
 
-This Gatsby starter is built on top of the official [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default). You can find a quick start guide in the following lines. There are the most important files explained.
+This website is built on top of the official [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default). You can find a quick start guide in the following lines. There are the most important files explained.
 
 ## 🚀 Quick start
 
@@ -158,5 +146,3 @@ Looking for more guidance? The perfect place to learn more about GatsbyJS is the
 You can also directly deploy this starter via Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/niklasmtj/gatsby-starter-julia)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
