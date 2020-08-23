@@ -25,9 +25,10 @@ const IndexPage = () => (
       </p>
       <h2>Who I am</h2>
       <p>
-        I am a new 2020 graduate from Ryerson University with a Bachelor of
-        Engineering from Ryerson University. I currently work part time as a
-        telecommunications technician for Bell Canada.
+        I am a 2020 graduate from Ryerson University with a Bachelor of
+        Engineering from Ryerson University. I currently work as a
+        telecommunications technician for Bell Canada. I also do software
+        development on my spare time.
       </p>
       <h2>What I do for fun</h2>
       <p>
@@ -45,9 +46,7 @@ const IndexPage = () => (
             2. Code: I have always had an interest of how things work, a
             tinkerer mindset. Which is why I think I was able to easily pick up
             and enjoy coding; more so then maths and physics. So it ended up
-            being a skill that I continued to pursue on my own time, for fun; as
-            Electrical Engineering curriculum consisted of only about 20%
-            programming courses.
+            being a skill that I continued to pursue on my own time, for fun.
           </li>
           <li>
             3. Optimize: This topic really has resonated with me most recently.

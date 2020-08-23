@@ -32,7 +32,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <SEO title="Lifestyle" />
       <Content>
-        <h1>Lifestyle Blog</h1>
+        <h1>Lifestyle</h1>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate;
