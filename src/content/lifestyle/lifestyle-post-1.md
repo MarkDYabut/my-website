@@ -5,6 +5,7 @@ draft: false
 category: "lifestyle"
 path: "/blog/lifestyle-post-1"
 ---
+
 ---
 
 I have always found myself struggling to maintain consistent motivation when in pursuit of my goals. I would find that motivation would come in bursts, and then exponentially dissipate over time.
@@ -29,7 +30,7 @@ This is when I came to the big realization for myself that I will try to explain
 
 "BAD RUN"
 
-- 6.5 min page
+- 6.5 min pace
 - efficiency: 5.5/6.5 = 84%
 - initial motivation = 20/100
 - final motivation = 19/100
@@ -37,7 +38,7 @@ This is when I came to the big realization for myself that I will try to explain
 
 Till this point in my life I had always been striving for that 100%+ efficiency, in ALL aspects. I had been so infatuated with the term "min-max" a term used often in gaming to describe maximizing efficiency; that I would disregard all other aspects that are involved with any task.
 
-A "GOOD RUN" to me, was all about the numbers; If I did not maintain maximum efficiency, instead of rewarding myself for completing the task, I would punish myself. I would feel bad about my results and thus define it as a "BAD RUN". 
+A "GOOD RUN" to me, was all about the numbers; If I did not maintain maximum efficiency, instead of rewarding myself for completing the task, I would punish myself. I would feel bad about my results and thus define it as a "BAD RUN".
 
 That day I had ran a slower pace, yielding a efficiency of 84% (A metric of previous/current) so higher than 100% efficiency meant that I had a better statistic that the previous iteration. So based on my old ideology, I had ran a "BAD RUN," but for some reason I felt good?
 
