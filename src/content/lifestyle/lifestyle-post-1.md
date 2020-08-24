@@ -44,7 +44,7 @@ That day I had ran a slower pace, yielding a efficiency of 84% (A metric of prev
 
 I took time to really analyze what had happened. When looking at just efficiency only, one would define a "GOOD RUN" to be one of higher efficiency; an ideology that I stood by for so long. What I did not realize was the other stats involved. I was actually losing more with my defined "GOOD RUN" compared to my "BAD RUN."
 
-I think this correlates to the notion of always looking at things from a macro perspective. There's often much missed when looking into the micro perspective.
+I think this correlates to the notion of always looking at things from a macro perspective. There's often much missed when looking into the micro perspective (basically, look at the bigger picture).
 
 So back to our initial topic of motivation, after this realization I realized how important it was for me to quantify motivation. Which was such a big development for myself because for so long it had just been the unknown variable that was consistently changing and I just couldn't figure out why.
 
@@ -66,11 +66,12 @@ If we go back to my example and look at it in another way:
 
 Without quantifying motivation, one can easily justify why 102 points is better than 84. However, with the quantification now; one can argue that that over time a "BAD RUN" will yield 1680 points in comparison to the 102 points of a "GOOD RUN."
 
-Of course this example may be a bit of an extreme, I would want to emphasize the main point of the example is to illustrate the importance of quantifying motivation. How it can be used to get out of that negative feedback loop of always feeling unmotivated. In essence I believe the key is to really simply just pace yourself, and I think the hardest part only becomes apparently after this realization. Since now:
+Of course this example may be a bit of an extreme, I would want to emphasize the main point of the example is to illustrate the importance of quantifying motivation. How it can be used to get out of that negative feedback loop of always feeling unmotivated. In essence I believe the key is to really simply just pace yourself, and I think the hardest part only becomes apparent after this realization. Since now:
 
 - How do we actually know our proper pace?
 - How can we accurately gauge the motivation values themselves?
 - Can we quantify a singular underlying motivation category?
 - Does this motivation value exist in multiple categories?
+- etc.
 
 ---
