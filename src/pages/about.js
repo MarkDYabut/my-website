@@ -30,7 +30,7 @@ const IndexPage = () => (
         telecommunications technician for Bell Canada. I also do software
         development on my spare time.
       </p>
-      <h2>What I do for fun</h2>
+      <h2>Things I like to do</h2>
       <p>
         <ul>
           <li>
@@ -55,6 +55,15 @@ const IndexPage = () => (
             required for such systems is iteration; I one day hope that my
             journey towards optimizing my life will help someone, even if only
             by a little.
+          </li>
+          <li>
+            4. Power: As I try to harness the "Electrical Engineer" out of what
+            I learnt in school; I've picked up an interest in electric scooters.
+            Allowing me to bond with my dad. Some things involved with this are
+            18650 lithium ion batteries, DC motors, soldering, and all the other
+            fun stuff associated with electronics. The goal is to keep trying to
+            go faster and fast. The fastest one we've put together goes a
+            sketchy 40km/hr.
           </li>
         </ul>
       </p>
