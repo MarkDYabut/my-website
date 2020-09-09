@@ -6,6 +6,7 @@ const IndexPage = () => {
   const [formState, setFormState] = useState({
     name: "",
     email: "",
+    message: "",
   });
 
   const encode = (data) => {
@@ -63,6 +64,15 @@ const IndexPage = () => {
           onChange={handleChange}
           value={formState.email}
           placeholder="Enter your email"
+        />
+        <label htmlFor="message">Message</label>
+        <input
+          id="message"
+          type="message"
+          name="message"
+          onChange={handleChange}
+          value={formState.message}
+          placeholder="Enter your message"
         />
         <button type="submit">Submit</button>
       </form>
