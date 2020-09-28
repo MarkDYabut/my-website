@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from "gatsby";
 import styled from "@emotion/styled";
 import Header from "./header";
 import "./layout.css";
+import { Link } from "gatsby";
 
 const Content = styled.div`
   margin: 0 auto;
@@ -12,7 +13,7 @@ const Content = styled.div`
   padding-top: 0;
 `;
 
-const GatsbyLink = styled.a`
+const GatsbyLink = styled(Link)`
   margin-left: 5px;
 `;
 
@@ -38,7 +39,9 @@ const Layout = ({ children }) => (
         <Content>
           <main>{children}</main>
           <Footer>
-            <p>All content © Mark Yabut {new Date().getFullYear()}</p>
+            <GatsbyLink to="/">
+              All content © Mark Yabut {new Date().getFullYear()}
+            </GatsbyLink>
           </Footer>
         </Content>
       </>

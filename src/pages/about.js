@@ -56,12 +56,13 @@ const IndexPage = () => (
           </li>
           <li>
             4. Power: As I try to harness the "Electrical Engineer" out of what
-            I learnt in school; I've picked up an interest in electric scooters.
-            Allowing me to bond with my dad. Some things involved with this are
-            18650 lithium ion batteries, DC motors, soldering, and all the other
-            fun stuff associated with electronics. The goal is to keep trying to
-            go faster and fast. The fastest one we've put together goes a
-            sketchy 40km/hr.
+            I learnt in school; I've picked up an interest in electric devices
+            such as e-bikes, e-atvs, e-scooters. Allowing me to bond with my
+            dad. Some things involved with this are 18650 lithium ion batteries,
+            DC motors, soldering, and all the other fun stuff associated with
+            electronics. The goal is to keep trying to go faster and fast. The
+            fastest one we've put together goes a sketchy 40km/hr powered by a
+            48v 750w hub motor.
           </li>
         </ul>
       </p>
