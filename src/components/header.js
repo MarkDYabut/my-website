@@ -79,12 +79,12 @@ const Header = ({ siteTitle }) => (
         <NavLink to="/about">About</NavLink>
         <NavLink to="/tech">Tech</NavLink>
         <NavLink to="/lifestyle">Lifestyle</NavLink>
-        <NavLink
+        {/* <NavLink
           target="_blank"
           to="https://www.notion.so/markyabut/Projects-d14b191e8d1843049e3ba19787a695f4"
         >
           Projects
-        </NavLink>
+        </NavLink> */}
       </p>
     </Content>
   </SiteHeader>
