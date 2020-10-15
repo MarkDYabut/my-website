@@ -2,6 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import { Link } from "gatsby";
 
 const Content = styled.div`
   margin: 0 auto;
@@ -14,6 +15,17 @@ const IndexPage = () => (
     <SEO title="About" keywords={[`Mark Yabut`, `about`]} />
     <Content>
       <h1>About</h1>
+      <h2>Projects</h2>
+      <p>
+        You can find my projects here
+        <br />
+        <a
+          target="_blank"
+          href="https://www.notion.so/markyabut/Projects-d14b191e8d1843049e3ba19787a695f4"
+        >
+          Link
+        </a>
+      </p>
       <h2>Third person</h2>
       <p>
         Mark Yabut is a technology advocate. He's passionate about building
@@ -66,6 +78,9 @@ const IndexPage = () => (
           </li>
         </ul>
       </p>
+      <h2>Say Hello!</h2>Feel free to leave me a message here
+      <br />
+      <Link to="/contact">Contact</Link>
     </Content>
   </Layout>
 );

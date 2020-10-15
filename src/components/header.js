@@ -37,7 +37,8 @@ const NavLink = styled(Link)`
 
 const GitHubLink = styled.a`
   color: black;
-  margin-left: 15px;
+  /* margin-left: 15px; */
+  margin-right: 15px;
   text-decoration: none;
   display: inline-block;
   position: relative;

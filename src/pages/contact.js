@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   margin-bottom: 50px;
 
   html {
-    height: 100%;
+    height: 180%;
   }
   body {
     font-family: Arial, Helvetica, sans-serif;
@@ -34,7 +34,7 @@ const StyledFormWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
   padding: 0 20px;
 `;
 
@@ -86,25 +86,12 @@ const StyledFieldset = styled.fieldset`
   }
 `;
 
-const StyledError = styled.div`
-  color: red;
-  font-weight: 800;
-  margin: 0 0 40px 0;
-`;
-
 const StyledTextArea = styled.textarea`
   background-color: #eee;
   width: 100%;
   min-height: 100px;
   resize: none;
   ${sharedStyles}
-`;
-
-const Content = styled.div`
-  margin: 0 auto;
-  max-width: 860px;
-  padding: 1.45rem 1.0875rem;
-  text-align: center;
 `;
 
 const IndexPage = () => {
@@ -193,61 +180,14 @@ const IndexPage = () => {
                 name="message"
                 onChange={handleChange}
                 value={formState.message}
-                placeholder="Enter your message"
+                placeholder="I am interested in..."
               />
-              {/* <StyledError>
-                <p>Error Message</p>
-              </StyledError> */}
+
               <StyledButton type="submit">Send</StyledButton>
             </StyledForm>
           </StyledFormWrapper>
         </Wrapper>
       </>
-
-      {/* <Content>
-        <h3>Hidden contact form</h3>
-        <form
-          onSubmit={handleSubmit}
-          name="contact"
-          method="post"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-        >
-          <input type="hidden" name="form-name" value="contact" />
-          <label htmlFor="name">Name: </label>
-          <br />
-          <input
-            id="name"
-            type="text"
-            name="name"
-            onChange={handleChange}
-            value={formState.name}
-            placeholder="Enter your name"
-          />
-          <br />
-          <label htmlFor="email">Email: </label> <br />
-          <input
-            id="email"
-            type="email"
-            name="email"
-            onChange={handleChange}
-            value={formState.email}
-            placeholder="Enter your email"
-          />
-          <br />
-          <label htmlFor="message">Message: </label> <br />
-          <input
-            id="message"
-            type="message"
-            name="message"
-            onChange={handleChange}
-            value={formState.message}
-            placeholder="Enter your message"
-          />
-          <br /> <br />
-          <button type="submit">Submit</button>
-        </form>
-      </Content> */}
     </Layout>
   );
 };
