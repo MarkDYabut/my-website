@@ -204,7 +204,7 @@ const IndexPage = () => {
         </Wrapper>
       </>
 
-      <Content>
+      {/* <Content>
         <h3>Hidden contact form</h3>
         <form
           onSubmit={handleSubmit}
@@ -247,7 +247,7 @@ const IndexPage = () => {
           <br /> <br />
           <button type="submit">Submit</button>
         </form>
-      </Content>
+      </Content> */}
     </Layout>
   );
 };
