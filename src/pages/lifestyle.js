@@ -29,36 +29,38 @@ const ReadingTime = styled.h5`
 
 const IndexPage = ({ data }) => {
   return (
-    <Layout>
-      <SEO title="Lifestyle" />
-      <Content>
-        <h1>Lifestyle</h1>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            const rawDate = node.frontmatter.rawDate;
-            const date = new Date(rawDate);
-            return date < new Date();
-          })
-          .map(({ node }) => (
-            <div key={node.id}>
-              <Link
-                to={node.frontmatter.path}
-                css={css`
-                  text-decoration: none;
-                  color: inherit;
-                `}
-              >
-                <MarkerHeader>{node.frontmatter.title} </MarkerHeader>
-                <div>
-                  <ArticleDate>{node.frontmatter.date}</ArticleDate>
-                  <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
-                </div>
-                <p>{node.excerpt}</p>
-              </Link>
-            </div>
-          ))}
-      </Content>
-    </Layout>
+    <>
+      <SEO title="Lifestyle" keywords={[`Mark Yabut`, `blog`, `lifestyle`]} />
+      <Layout>
+        <Content>
+          <h1>Lifestyle</h1>
+          {data.allMarkdownRemark.edges
+            .filter(({ node }) => {
+              const rawDate = node.frontmatter.rawDate;
+              const date = new Date(rawDate);
+              return date < new Date();
+            })
+            .map(({ node }) => (
+              <div key={node.id}>
+                <Link
+                  to={node.frontmatter.path}
+                  css={css`
+                    text-decoration: none;
+                    color: inherit;
+                  `}
+                >
+                  <MarkerHeader>{node.frontmatter.title} </MarkerHeader>
+                  <div>
+                    <ArticleDate>{node.frontmatter.date}</ArticleDate>
+                    <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
+                  </div>
+                  <p>{node.excerpt}</p>
+                </Link>
+              </div>
+            ))}
+        </Content>
+      </Layout>
+    </>
   );
 };
 

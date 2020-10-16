@@ -29,36 +29,38 @@ const ReadingTime = styled.h5`
 
 const IndexPage = ({ data }) => {
   return (
-    <Layout>
-      <SEO title="Tech" />
-      <Content>
-        <h1>Tech</h1>
-        {data.allMarkdownRemark.edges
-          .filter(({ node }) => {
-            const rawDate = node.frontmatter.rawDate;
-            const date = new Date(rawDate);
-            return date < new Date();
-          })
-          .map(({ node }) => (
-            <div key={node.id}>
-              <Link
-                to={node.frontmatter.path}
-                css={css`
-                  text-decoration: none;
-                  color: inherit;
-                `}
-              >
-                <MarkerHeader>{node.frontmatter.title} </MarkerHeader>
-                <div>
-                  <ArticleDate>{node.frontmatter.date}</ArticleDate>
-                  <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
-                </div>
-                <p>{node.excerpt}</p>
-              </Link>
-            </div>
-          ))}
-      </Content>
-    </Layout>
+    <>
+      <SEO title="Tech" keywords={[`Mark Yabut`, `blog`, `tech`]} />
+      <Layout>
+        <Content>
+          <h1>Tech</h1>
+          {data.allMarkdownRemark.edges
+            .filter(({ node }) => {
+              const rawDate = node.frontmatter.rawDate;
+              const date = new Date(rawDate);
+              return date < new Date();
+            })
+            .map(({ node }) => (
+              <div key={node.id}>
+                <Link
+                  to={node.frontmatter.path}
+                  css={css`
+                    text-decoration: none;
+                    color: inherit;
+                  `}
+                >
+                  <MarkerHeader>{node.frontmatter.title} </MarkerHeader>
+                  <div>
+                    <ArticleDate>{node.frontmatter.date}</ArticleDate>
+                    <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
+                  </div>
+                  <p>{node.excerpt}</p>
+                </Link>
+              </div>
+            ))}
+        </Content>
+      </Layout>
+    </>
   );
 };
 

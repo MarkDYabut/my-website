@@ -129,66 +129,67 @@ const IndexPage = () => {
   };
 
   return (
-    <Layout>
+    <>
       <SEO title="Contact" keywords={[`Mark Yabut`, `contact`, `email`]} />
+      <Layout>
+        <>
+          <Wrapper>
+            <StyledFormWrapper>
+              <StyledForm
+                onSubmit={handleSubmit}
+                name="contact"
+                method="post"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+              >
+                <input type="hidden" name="form-name" value="contact" />
+                <h2>Contact Form</h2>
+                <label htmlFor="name">Name</label>
+                <StyledInput
+                  id="name"
+                  type="text"
+                  name="name"
+                  onChange={handleChange}
+                  value={formState.name}
+                  placeholder="Enter your name"
+                />
+                <label htmlFor="email">Email</label>
+                <StyledInput
+                  id="email"
+                  type="email"
+                  name="email"
+                  onChange={handleChange}
+                  value={formState.email}
+                  placeholder="Enter your email"
+                />
+                {/* <StyledFieldset>
+              <legend>Gender</legend>
+              <label>
+                <input type="radio" value="female" name="gender" />
+                Female
+              </label>
+              <label>
+                <input type="radio" value="male" name="gender" />
+                Male
+              </label>
+            </StyledFieldset> */}
+                <label htmlFor="message">Message</label>
+                <StyledTextArea
+                  id="message"
+                  type="message"
+                  name="message"
+                  onChange={handleChange}
+                  value={formState.message}
+                  placeholder="I am interested in..."
+                />
 
-      <>
-        <Wrapper>
-          <StyledFormWrapper>
-            <StyledForm
-              onSubmit={handleSubmit}
-              name="contact"
-              method="post"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
-            >
-              <input type="hidden" name="form-name" value="contact" />
-              <h2>Contact Form</h2>
-              <label htmlFor="name">Name</label>
-              <StyledInput
-                id="name"
-                type="text"
-                name="name"
-                onChange={handleChange}
-                value={formState.name}
-                placeholder="Enter your name"
-              />
-              <label htmlFor="email">Email</label>
-              <StyledInput
-                id="email"
-                type="email"
-                name="email"
-                onChange={handleChange}
-                value={formState.email}
-                placeholder="Enter your email"
-              />
-              {/* <StyledFieldset>
-                <legend>Gender</legend>
-                <label>
-                  <input type="radio" value="female" name="gender" />
-                  Female
-                </label>
-                <label>
-                  <input type="radio" value="male" name="gender" />
-                  Male
-                </label>
-              </StyledFieldset> */}
-              <label htmlFor="message">Message</label>
-              <StyledTextArea
-                id="message"
-                type="message"
-                name="message"
-                onChange={handleChange}
-                value={formState.message}
-                placeholder="I am interested in..."
-              />
-
-              <StyledButton type="submit">Send</StyledButton>
-            </StyledForm>
-          </StyledFormWrapper>
-        </Wrapper>
-      </>
-    </Layout>
+                <StyledButton type="submit">Send</StyledButton>
+              </StyledForm>
+            </StyledFormWrapper>
+          </Wrapper>
+        </>
+      </Layout>
+    </>
   );
 };
 
