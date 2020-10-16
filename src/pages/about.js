@@ -36,9 +36,9 @@ const IndexPage = () => (
       <h2>Who I am</h2>
       <p>
         I am a 2020 graduate from Ryerson University with a Bachelor of
-        Engineering from Ryerson University. I currently work as a
-        telecommunications technician for Bell Canada. I also do software
-        development on my spare time.
+        Engineering. I currently work as a telecommunications technician for
+        Bell Canada. I work on software development and power electronics
+        projects on my spare time.
       </p>
       <h2>Things I like to do</h2>
       <p>
@@ -72,7 +72,7 @@ const IndexPage = () => (
             such as e-bikes, e-atvs, e-scooters. Allowing me to bond with my
             dad. Some things involved with this are 18650 lithium ion batteries,
             DC motors, soldering, and all the other fun stuff associated with
-            electronics. The goal is to keep trying to go faster and fast. The
+            electronics. The goal is to keep trying to go faster and faster. The
             fastest one we've put together goes a sketchy 40km/hr powered by a
             48v 750w hub motor.
           </li>
