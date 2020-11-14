@@ -85,9 +85,9 @@ const IndexPage = () => (
             </li>
           </ul>
         </p>
-        <h2>Say Hello!</h2>Feel free to leave me a message here
+        <h2>Say Hello!</h2>Feel free to leave me a message
         <br />
-        <Link to="/contact">Contact</Link>
+        <Link to="/contact">here</Link>
       </Content>
     </Layout>
   </>
