@@ -39,9 +39,7 @@ const Layout = ({ children }) => (
         <Content>
           <main>{children}</main>
           <Footer>
-            <GatsbyLink to="/">
-              All content © Mark Yabut {new Date().getFullYear()}
-            </GatsbyLink>
+            <GatsbyLink to="/">Updated on 2020-11-14</GatsbyLink>
           </Footer>
         </Content>
       </>
