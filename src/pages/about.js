@@ -24,7 +24,7 @@ const IndexPage = () => (
             target="_blank"
             href="https://www.notion.so/markyabut/Projects-d14b191e8d1843049e3ba19787a695f4"
           >
-            here
+            Projects Page
           </a>
         </p>
         <h2>Third person</h2>
@@ -51,14 +51,14 @@ const IndexPage = () => (
               especially in tech is such an important skill that I had
               undervalued for so long. So what better way to improve it? Write!
               You can find my weekly articles on "life", which is really just a
-              collection of ideas and me writing to my future self
+              collection of ideas and me writing to my future self here
               <br />
-              <Link to="/lifestyle">here</Link>
+              <Link to="/lifestyle">Lifestyle Blog</Link>
               <br />I am also trying to abide by the principles of "learning
               through teaching" and "teaching your future self, because you
-              forget." So I will be trying to put out tutorials on "tech"
+              forget." So I will be trying to put out tutorials on "tech" here
               <br />
-              <Link to="/tech">here</Link>
+              <Link to="/tech">Tech Blog</Link>
             </li>
             <li>
               2. Coding: I have always had an interest of how things work, a
@@ -85,9 +85,9 @@ const IndexPage = () => (
             </li>
           </ul>
         </p>
-        <h2>Say Hello!</h2>Feel free to leave me a message
+        <h2>Say Hello!</h2>Feel free to leave me a message here
         <br />
-        <Link to="/contact">here</Link>
+        <Link to="/contact">Contact Me</Link>
       </Content>
     </Layout>
   </>
