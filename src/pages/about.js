@@ -18,7 +18,7 @@ const IndexPage = () => (
         <h1>About</h1>
         <h2>Projects</h2>
         <p>
-          You can find my projects here
+          You can find my projects here:
           <br />
           <a
             target="_blank"
@@ -29,44 +29,48 @@ const IndexPage = () => (
         </p>
         <h2>Third person</h2>
         <p>
-          Mark Yabut is a technology advocate. He's passionate about building
-          healthy, but also efficient systems. This site explores strategies and
-          tools that could help individuals live happier, healthier and
-          productive lives.
+          Mark Yabut is passionate about building healthy, but also efficient
+          systems. This site explores strategies and tools that could help
+          individuals live happier, healthier and productive lives.
         </p>
         <h2>Who I am</h2>
         <p>
           I am a 2020 graduate from Ryerson University with a Bachelor of
-          Engineering. I currently work as a telecommunications technician for
-          Bell Canada. I work on software development and power electronics
-          projects on my spare time.
+          Engineering. I have experience in the telecommunications industry as a
+          technician and web developmeent experience in the advertising
+          industry.
         </p>
-        <h2>Things I like to do</h2>
+        <h2>Things I like</h2>
         <p>
           <ul>
             <li>
-              1. Write: I have never really been much of a writer but i've
+              1. Writing: I have never really been much of a writer but i've
               recently found appreciation and enjoyment behind writing. I was
-              always more of a numbers person, i'd focus my learning on maths,
-              sciences, coding; but I came to the big realization that knowing
-              those things is not enough. Communicational skills; especially in
-              tech is such an important skill that I had undervalued for so
-              long. So what better way to improve it? Write!
+              always more of a numbers person, but I came to the big realization
+              that knowing numbers is not enough. Communicational skills;
+              especially in tech is such an important skill that I had
+              undervalued for so long. So what better way to improve it? Write!
+              You can find my weekly articles on "life"
+              <br />
+              <Link to="/lifestyle">here</Link>
+              <br />I am also trying to abide by the principles of "learning
+              through teaching" and "teaching your future self, because you
+              forget." So I will be trying to put out tutorials on "tech"
+              <br />
+              <Link to="/tech">here</Link>
             </li>
             <li>
-              2. Code: I have always had an interest of how things work, a
+              2. Coding: I have always had an interest of how things work, a
               tinkerer mindset. Which is why I think I was able to easily pick
               up and enjoy coding; more so then maths and physics. So it ended
-              up being a skill that I continued to pursue on my own time, for
-              fun.
+              up being a skill that I continued to pursue.
             </li>
             <li>
-              3. Optimize: This topic really has resonated with me most
+              3. Optimizing: This topic really has resonated with me most
               recently. I have found serious drive and enjoyment creating
-              optimized, efficient, and sustainable systems for myself. What
-              i've found is required for such systems is iteration; I one day
-              hope that my journey towards optimizing my life will help someone,
-              even if only by a little.
+              optimized, efficient, and sustainable systems for myself. I one
+              day hope that my journey towards optimizing my life will help
+              someone, even if only by a little.
             </li>
             <li>
               4. Power: As I try to harness the "Electrical Engineer" out of
