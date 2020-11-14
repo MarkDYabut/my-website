@@ -18,13 +18,13 @@ const IndexPage = () => (
         <h1>About</h1>
         <h2>Projects</h2>
         <p>
-          You can find my projects here:
+          You can find my projects
           <br />
           <a
             target="_blank"
             href="https://www.notion.so/markyabut/Projects-d14b191e8d1843049e3ba19787a695f4"
           >
-            Link
+            here
           </a>
         </p>
         <h2>Third person</h2>
@@ -50,7 +50,8 @@ const IndexPage = () => (
               that knowing numbers is not enough. Communicational skills;
               especially in tech is such an important skill that I had
               undervalued for so long. So what better way to improve it? Write!
-              You can find my weekly articles on "life"
+              You can find my weekly articles on "life", which is really just a
+              collection of ideas and me writing to my future self
               <br />
               <Link to="/lifestyle">here</Link>
               <br />I am also trying to abide by the principles of "learning
