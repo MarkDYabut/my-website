@@ -6,8 +6,6 @@ category: "tech"
 path: "/tech/tech-post-3"
 ---
 
----
-
 Just got a new macbook, so I figured I'd list out my current technology stack that I am using to build out my web applications.
 
 My current philosophy when developing web applications revolves around the [JAMSTACK](https://jamstack.org/). Below is a quote directly from their website:
@@ -66,5 +64,3 @@ An example design flow is as follows:
 ## Domain Names
 
 - [Name Cheap](https://www.namecheap.com/)
-
----
