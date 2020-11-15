@@ -14,7 +14,7 @@ My current philosophy when developing web applications revolves around the [JAMS
 
 ![pic](./jamstack.png)
 
-It is a design philosophy that revolves around the use of pre-rendered web applications that are hosted as static files. The applications become dynamic by the use of API calls. This is made posible by the growing capabilities of web browsers and services available through APIs.
+It is a design philosophy that revolves around the use of pre-rendered web applications that are hosted as static files. The applications become dynamic by the use of API calls. This is made possible by the growing capabilities of web browsers and services available through APIs.
 
 An example design flow is as follows:
 
@@ -22,8 +22,6 @@ An example design flow is as follows:
 2. Connect to a headless content management system (HCMS) to hold my data; depending on the use case this will be either sanity, airtable or contentful.
 3. Host code on github and deploy through netlify.
 4. Configure a domain through Name Cheap and Netlify.
-
----
 
 ## Programming
 
