@@ -75,9 +75,9 @@ const IndexPage = () => (
             <li>
               <p>
                 2. Coding: He was first introduced to coding back during his
-                first semester of his ungrad in 2013, a course called CPS125. He
-                ended up getting a 4.33 in that course, which was an early sign
-                of his love for code.
+                first semester of his ungrad in 2013, in a course called CPS125.
+                He ended up getting a 4.33 gpa in that course, which was an
+                early sign of his love for code.
               </p>
             </li>
             <li>
