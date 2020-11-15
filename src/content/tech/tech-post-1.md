@@ -1,7 +1,7 @@
 ---
 title: "How was this site made?"
 date: "2020-06-18"
-draft: false
+draft: true
 category: "tech"
 path: "/tech/site-docs"
 ---

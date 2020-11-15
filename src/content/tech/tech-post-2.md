@@ -1,11 +1,9 @@
 ---
-title: "Why you should learn Gatsby"
+title: "Gatsby is really cool"
 date: "2020-07-06"
 draft: false
 category: "tech"
 path: "/tech/tech-post-2"
----
-
 ---
 
 ###What is Gatsby?
@@ -29,5 +27,20 @@ What Gatsby provides is an environment where you start with all the new technolo
 ###How should you start?
 
 I would recommend first learning how to deploy a Gatsby application, and then learn the folder structure. Could easily learn it within a day but watching a crash course on youtube and going through the first bits of the Gatsby documentation. Then depending on whether or not you need to learn the basics of html/css/javascript go and do a few tutorials on those technologies, otherwise you can continue with the docs. Once you get a grasp of the basics, I would highly recommend to start looking into starters and using them as inspirations/templates/guides to start building useful things for yourself. For example I never really dug that deep into CSS, so my styling is pretty bad; so I rely heavily on starters to set up that initial styling aspect of creating an application.
+
+##This site was created with the following technologies:
+###Gatsby:
+
+- GraphQL
+- React
+- Javascript
+- HTML
+- CSS
+- <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">Markdown</a>
+
+###Deployment:
+
+- Github
+- Netlify
 
 ---

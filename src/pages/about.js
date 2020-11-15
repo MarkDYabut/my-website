@@ -16,7 +16,7 @@ const IndexPage = () => (
     <Layout>
       <Content>
         <h1>About</h1>
-        <h2>Projects</h2>
+        {/* <h2>Projects</h2>
         <p>
           You can find my projects
           <br />
@@ -26,68 +26,75 @@ const IndexPage = () => (
           >
             Projects Page
           </a>
-        </p>
-        <h2>Third person</h2>
+        </p> */}
         <p>
           Mark Yabut is passionate about building healthy, but also efficient
-          systems. This site explores strategies and tools that could help
-          individuals live happier, healthier and productive lives.
+          systems. He believes that life is about suffering and the purpose of
+          life is to contribute the highest (
+          <a
+            target="_blank"
+            href="https://en.wikipedia.org/wiki/Net_(economics)"
+          >
+            net
+          </a>
+          ) reduction of suffering. This site explores strategies and tools that
+          could help individuals live happier, healthier and productive lives.
         </p>
-        <h2>Who I am</h2>
+        <h2>Who he is</h2>
         <p>
-          I am a 2020 graduate from Ryerson University with a Bachelor of
-          Engineering. I have experience in the telecommunications industry as a
-          technician and web developmeent experience in the advertising
-          industry.
+          He is a new graduate from Ryerson University with a B.E.E.E. and has
+          experience doing mediocre things, but is trying his best to improve
+          himself so that he can provide more value to the world.
         </p>
-        <h2>Things I like</h2>
+        <h2>Things he likes</h2>
         <p>
           <ul>
             <li>
-              1. Writing: I have never really been much of a writer but i've
-              recently found appreciation and enjoyment behind writing. I was
-              always more of a numbers person, but I came to the big realization
-              that knowing numbers is not enough. Communicational skills;
-              especially in tech is such an important skill that I had
+              1. Writing: He was never really much of a writer but he's found
+              appreciation and enjoyment behind writing. He came to the big
+              realization that knowing numbers is not enough. Communicational
+              skills; especially in tech is such an important skill that he had
               undervalued for so long. So what better way to improve it? Write!
-              You can find my weekly articles on "life", which is really just a
-              collection of ideas and me writing to my future self here
-              <br />
-              <Link to="/lifestyle">Lifestyle Blog</Link>
-              <br />I am also trying to abide by the principles of "learning
-              through teaching" and "teaching your future self, because you
-              forget." So I will be trying to put out tutorials on "tech" here
-              <br />
-              <Link to="/tech">Tech Blog</Link>
+              He writes in a weekly (<Link to="/lifestyle">Lifestyle Blog</Link>
+              ) which is really just a collection of his ideas for him to refer
+              back to. He also is trying to abide by the principles of "learn
+              through teaching" and "create notes to teach your future self
+              because you forget." So he also has a soon to be weekly (
+              <Link to="/tech">Tech Blog</Link>).
             </li>
             <li>
-              2. Coding: I have always had an interest of how things work, a
-              tinkerer mindset. Which is why I think I was able to easily pick
-              up and enjoy coding; more so then maths and physics. So it ended
-              up being a skill that I continued to pursue.
+              2. Coding: He was first introduced to coding back during his first
+              semester of his ungrad in 2013, a course called CPS125. His GPA
+              for that course ended up being 2x what his cGPA ended up at, which
+              is why it's probably something that he likes.
             </li>
             <li>
-              3. Optimizing: This topic really has resonated with me most
-              recently. I have found serious drive and enjoyment creating
-              optimized, efficient, and sustainable systems for myself. I one
-              day hope that my journey towards optimizing my life will help
-              someone, even if only by a little.
+              3. Optimizing: There's a term he likes called (
+              <a
+                target="_blank"
+                href="https://www.giantbomb.com/min-maxing/3015-128/#:~:text=Min%2Dmaxing%20is%20the%20character,but%20exceedingly%20weak%20in%20others."
+              >
+                min-maxing
+              </a>
+              ) which he discovered through video games. It's an idea of
+              "minimizing undesirable qualities of a character so as to maximize
+              desirable qualities in order to achieve the most powerful
+              character possible in an RPG." Now that he has moven a away from
+              games, he is trying to view life as a game, and min-max life by
+              creating productive, efficient, and sustainable systems. He one
+              day hopes that his journey to optimization will be useful to
+              someone.
             </li>
             <li>
-              4. Power: As I try to harness the "Electrical Engineer" out of
-              what I learnt in school; I've picked up an interest in electric
-              devices such as e-bikes, e-atvs, e-scooters. Allowing me to bond
-              with my dad. Some things involved with this are 18650 lithium ion
-              batteries, DC motors, soldering, and all the other fun stuff
-              associated with electronics. The goal is to keep trying to go
-              faster and faster. The fastest one we've put together goes a
-              sketchy 40km/hr powered by a 48v 750w hub motor.
+              4. Power: As he try to harness value out of his 7 year long,
+              $50000 investment into a piece of paper; he has picked up some
+              cool new hobbies. Things like electric vehicles, solar panels, big
+              batteries, wires, 3d printing, soldering.
             </li>
           </ul>
         </p>
-        <h2>Say Hello!</h2>Feel free to leave me a message here
-        <br />
-        <Link to="/contact">Contact Me</Link>
+        <h2>Say Hello!</h2>Feel free to (<Link to="/contact">Contact Him</Link>
+        ).
       </Content>
     </Layout>
   </>
