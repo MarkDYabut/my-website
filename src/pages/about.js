@@ -44,7 +44,15 @@ const IndexPage = () => (
         <p>
           He is a new graduate from Ryerson University with a B.E.E.E. and has
           experience doing mediocre things, but is trying his best to improve
-          himself so that he can provide more value to the world.
+          himself so that he can provide more value to the world. This is his (
+          <a
+            target="_blanl"
+            href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/81376074-2d0f-4912-9a8d-c235ba51a714/MarkYabutResume.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201115T005937Z&X-Amz-Expires=86400&X-Amz-Signature=a261d91281268894f558d19c5342bfa526f91d6fc09d804595c683ddfc62ad54&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22MarkYabutResume.pdf%22"
+          >
+            Resume
+          </a>
+          ), but he doesn't recommend using it for reference because so far no
+          one wants to employ him.
         </p>
         <h2>Things he likes</h2>
         <p>
