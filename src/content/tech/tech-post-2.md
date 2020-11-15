@@ -1,5 +1,5 @@
 ---
-title: "Gatsby is really cool"
+title: "This site was build with GatsbyJS"
 date: "2020-07-06"
 draft: false
 category: "tech"
@@ -16,7 +16,7 @@ I have only been really digging deep into web development in the last 2 years, s
 
 ###Why should I want to learn these new technologies?
 
-Use this application as an example, try clicking between pages; it’s super fast!
+Use this application as an example, try clicking between pages; it’s super fast! Below is a lighthouse test which is a web developer tool that can give you an idea of how performant a website is.
 
 ![pic](./lighthouse.png)
 

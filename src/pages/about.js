@@ -29,30 +29,22 @@ const IndexPage = () => (
         </p> */}
         <p>
           Mark Yabut is passionate about building healthy, but also efficient
-          systems. He believes that life is about suffering and the purpose of
-          life is to contribute the highest (
-          <a
-            target="_blank"
-            href="https://en.wikipedia.org/wiki/Net_(economics)"
-          >
-            net
-          </a>
-          ) reduction of suffering. This site explores strategies and tools that
-          could help individuals live happier, healthier and productive lives.
+          systems. This site explores strategies and tools that could help
+          individuals live happier, healthier and productive lives.
         </p>
         <h2>Who he is</h2>
         <p>
           He is a new graduate from Ryerson University with a B.E.E.E. and has
-          experience doing mediocre things, but is trying his best to improve
-          himself so that he can provide more value to the world. This is his (
+          experience doing amazing things, he is trying his best to improve
+          himself so that he can provide even more value to the world. This is
+          his (
           <a
             target="_blanl"
             href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/81376074-2d0f-4912-9a8d-c235ba51a714/MarkYabutResume.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201115T005937Z&X-Amz-Expires=86400&X-Amz-Signature=a261d91281268894f558d19c5342bfa526f91d6fc09d804595c683ddfc62ad54&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22MarkYabutResume.pdf%22"
           >
-            Resume
+            resume
           </a>
-          ), but he doesn't recommend using it for reference because so far no
-          one wants to employ him.
+          ).
         </p>
         <h2>Things he likes</h2>
         <p>
@@ -72,9 +64,9 @@ const IndexPage = () => (
             </li>
             <li>
               2. Coding: He was first introduced to coding back during his first
-              semester of his ungrad in 2013, a course called CPS125. His GPA
-              for that course ended up being 2x what his cGPA ended up at, which
-              is why it's probably something that he likes.
+              semester of his ungrad in 2013, a course called CPS125. He ended
+              up getting a 4.33 in that course, which was an early sign that he
+              would fall in love with code.
             </li>
             <li>
               3. Optimizing: There's a term he likes called (
@@ -88,21 +80,20 @@ const IndexPage = () => (
               "minimizing undesirable qualities of a character so as to maximize
               desirable qualities in order to achieve the most powerful
               character possible in an RPG." Now that he has moven a away from
-              games, he is trying to view life as a game, and min-max life by
-              creating productive, efficient, and sustainable systems. He one
-              day hopes that his journey to optimization will be useful to
-              someone.
+              games, he is trying to view life in the same way, and min-max life
+              by creating productive, efficient, and sustainable systems that
+              emphasize desirables and forgoes undesirables. He one day hopes
+              that his journey to optimization will be useful to someone.
             </li>
             <li>
-              4. Power: As he try to harness value out of his 7 year long,
-              $50000 investment into a piece of paper; he has picked up some
-              cool new hobbies. Things like electric vehicles, solar panels, big
-              batteries, wires, 3d printing, soldering.
+              4. Power: As he try to harness the power of his B.E.E.E; he has
+              picked up some cool new hobbies. Things like electric vehicles,
+              solar panels, batteries, 3d printing.
             </li>
           </ul>
         </p>
-        <h2>Say Hello!</h2>Feel free to (<Link to="/contact">Contact Him</Link>
-        ).
+        <h2>Say hello!</h2>Feel free to (<Link to="/contact">contact</Link>)
+        him.
       </Content>
     </Layout>
   </>
