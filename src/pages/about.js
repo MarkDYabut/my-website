@@ -65,8 +65,8 @@ const IndexPage = () => (
             <li>
               2. Coding: He was first introduced to coding back during his first
               semester of his ungrad in 2013, a course called CPS125. He ended
-              up getting a 4.33 in that course, which was an early sign that he
-              would fall in love with code.
+              up getting a 4.33 in that course, which was an early sign of his
+              love for code.
             </li>
             <li>
               3. Optimizing: There's a term he likes called (
@@ -80,15 +80,26 @@ const IndexPage = () => (
               "minimizing undesirable qualities of a character so as to maximize
               desirable qualities in order to achieve the most powerful
               character possible in an RPG." Now that he has moven a away from
-              games, he is trying to view life in the same way, and min-max life
-              by creating productive, efficient, and sustainable systems that
-              emphasize desirables and forgoes undesirables. He one day hopes
-              that his journey to optimization will be useful to someone.
+              games, he is trying to view life in the same way. By attempting to
+              min-max life by creating productive, efficient, and sustainable
+              systems that emphasize desirables and forgoes undesirables. He one
+              day hopes that his journey to optimization will be useful to
+              someone.
             </li>
             <li>
-              4. Power: As he try to harness the power of his B.E.E.E; he has
-              picked up some cool new hobbies. Things like electric vehicles,
-              solar panels, batteries, 3d printing.
+              4. Power: With his B.E.E.E. specialized in communication networks
+              and his experience as a telecommunication technician he has become
+              passionate about major infrastructure design. His final thesis was
+              a (
+              <a
+                target="_blanl"
+                href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/155556ff-a527-4457-b1ac-5da4431dcce6/Design-of-Automation-Unit-and-Communication-Network-For-Modern_Power-Stations.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201115T022529Z&X-Amz-Expires=86400&X-Amz-Signature=f41aa38b2df80d6eaf60bbf846bfbf66ce85276205b09a7c93bdd56603e0bda9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Design-of-Automation-Unit-and-Communication-Network-For-Modern%2520Power-Stations.pdf%22"
+              >
+                design of a communication network for modern power stations
+              </a>
+              ). As he tries to further his understanding of power he has picked
+              up some cool new hobbies. Things like electric vehicles, solar
+              panels, batteries, 3d printing, cad design.
             </li>
           </ul>
         </p>
