@@ -6,9 +6,9 @@ category: "lifestyle"
 path: "/lifestyle/op2-refine-ideas"
 ---
 
-> "If you maintain the same sloppy, pack-rat habits that led to a messy room in the first place, soon you’ll be looking at a new pile of clutter and hoping for another burst of motivation."
-
 Once you get a hang of capturing ideas, you'll find your shelf will start to get unorganized very fast. It is important to really understand the problem at hand and figure out a lasting solution.
+
+> "If you maintain the same sloppy, pack-rat habits that led to a messy room in the first place, soon you’ll be looking at a new pile of clutter and hoping for another burst of motivation. - Austin Kleon"
 
 ## Centralize your ideas
 

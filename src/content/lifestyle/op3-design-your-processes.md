@@ -8,7 +8,7 @@ path: "/lifestyle/op3-design-your-processes"
 
 We've talked about systems, and how a way of viewing life is through systems that are made up of processes. Now how do we go about creating these processes? Design them. So the first process we should make is a "Design Process."
 
-> "In life we're always bumping into new problems, and while we have the desire to solve them, it's often hard to find the right solution or even know where to start." - InVision
+> "In life we're always bumping into new problems, and while we have the desire to solve them, it's often hard to find the right solution or even know where to start. - InVision"
 
 ## Design process
 

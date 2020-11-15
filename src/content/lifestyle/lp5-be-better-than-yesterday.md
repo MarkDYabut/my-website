@@ -10,9 +10,7 @@ The idea is to not become stagnant, or dormant; to always strive for growth. It'
 
 ## Continuous improvement
 
-> "Continuous improvement is a dedication to making small changes and improvements every day, with the expectation that those small improvements will add up to something significant."
-
-- James Clear
+> "Continuous improvement is a dedication to making small changes and improvements every day, with the expectation that those small improvements will add up to something significant. - James Clear"
 
 The idea is to be consistent, view it as a long term investment; you will reap the benefits in the long term, not the short term. The problem is we live in a state of society where everyone has very little patience; a result of instant feedback. We now live in a world where we are spoiled, we expect things to happen right away.
 
@@ -27,7 +25,7 @@ So a typical approach to self improvement is the setting of large ambitious goal
 
 I think the easiest way to start ideating solutions, is to try and find a way to quantify the problem. James' Clear's idea of "Tiny Gains," is probably one of my favorite theories when it comes to self improvement through consistency.
 
-> "If you get one percent better each day for one year, you'll end up thirty-seven times better by the time you’re done." - James Clear
+> "If you get one percent better each day for one year, you'll end up thirty-seven times better by the time you’re done. - James Clear"
 
 !![be-better-then-yesterday.png](../assets/be-better-then-yesterday.png)
 
@@ -65,7 +63,7 @@ It can also mean eliminating things that don't contribute to your improvement to
 
 ### Solution #3: Measure backwards
 
-> "You can't connect the dots looking forward, you can only connect them looking backwards." - Steve Jobs
+> "You can't connect the dots looking forward, you can only connect them looking backwards. - Steve Jobs"
 
 Make decision's based on what has happened, build off your experiences not your goals. Instead of thinking of next week and how you're going to improve, think of last week - what worked and what didn't work.
 
