@@ -39,7 +39,7 @@ const Layout = ({ children }) => (
         <Content>
           <main>{children}</main>
           <Footer>
-            <GatsbyLink to="/">Updated on 2020-11-14</GatsbyLink>
+            <GatsbyLink to="/">Updated on 2020-11-21</GatsbyLink>
           </Footer>
         </Content>
       </>

@@ -107,13 +107,12 @@ const IndexPage = () => (
                 realization that knowing numbers is not enough. Communicational
                 skills; especially in tech is such an important skill that he
                 had undervalued for so long. So what better way to improve it?
-                Write! He writes in a weekly (
+                Write! He writes in a (
                 <Link to="/lifestyle">Lifestyle Blog</Link>) which is really
                 just a collection of his ideas for him to refer back to. He also
                 is trying to abide by the principles of "learn through teaching"
                 and "create notes to teach your future self because you forget."
-                So he also has a soon to be weekly (
-                <Link to="/tech">Tech Blog</Link>).
+                So writes in a (<Link to="/tech">Tech Blog</Link>).
               </p>
             </li>
           </ul>
