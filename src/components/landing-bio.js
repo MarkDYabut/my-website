@@ -6,6 +6,7 @@ import styled from "@emotion/styled";
 const NavLink = styled(Link)`
   color: black;
   /* margin-left: 15px; */
+  margin: 1rem;
   font-size: 1.3rem;
   text-decoration: none;
   display: inline-block;
@@ -71,12 +72,12 @@ const LandingBio = () => (
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
           <Description>{data.site.siteMetadata.subtitle}</Description>
-          <br />
           <NavLink to="/about">About</NavLink> <br />
-          <br />
-          <NavLink to="/lifestyle">Lifestyle Blog</NavLink> <br />
-          <br />
-          <NavLink to="/tech">Tech Blog</NavLink>
+          {/* <NavLink to="/lifestyle">Lifestyle Blog</NavLink> <br />
+          <NavLink to="/tech">Tech Blog</NavLink> <br /> */}
+          <NavLink target="_blank" to="https://my-pomodoro.netlify.app/">
+            Tool Kit
+          </NavLink>
         </Container>
       </OuterContainer>
     )}
