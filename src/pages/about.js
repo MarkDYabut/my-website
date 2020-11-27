@@ -37,7 +37,7 @@ const IndexPage = () => (
           He is a new graduate from Ryerson University with a (
           <a
             target="_blank"
-            href="https://www.notion.so/markyabut/Design-of-communication-network-for-power-stations-ce7c52a6a3e44745ac11ebdc75e9634b"
+            href="https://www.notion.so/markyabut/Bachelor-s-of-Engineering-Electrical-Engineering-3ebb3849592246a79f6252c7d674195f"
           >
             Bachelors of Engineer: Electrical Engineering
           </a>
@@ -56,7 +56,7 @@ const IndexPage = () => (
                 final thesis was a (
                 <a
                   target="_blank"
-                  href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/155556ff-a527-4457-b1ac-5da4431dcce6/Design-of-Automation-Unit-and-Communication-Network-For-Modern_Power-Stations.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201115T022529Z&X-Amz-Expires=86400&X-Amz-Signature=f41aa38b2df80d6eaf60bbf846bfbf66ce85276205b09a7c93bdd56603e0bda9&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Design-of-Automation-Unit-and-Communication-Network-For-Modern%2520Power-Stations.pdf%22"
+                  href="https://www.noiton.so/markyabut/Design-of-communication-network-for-power-stations-ce7c52a6a3e44745ac11ebdc75e9634b"
                 >
                   design of a communication network for modern power stations
                 </a>
