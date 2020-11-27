@@ -37,20 +37,13 @@ const IndexPage = () => (
           He is a new graduate from Ryerson University with a (
           <a
             target="_blank"
-            href="https://www.notion.so/markyabut/Bachelor-s-of-Engineering-3ebb3849592246a79f6252c7d674195f"
+            href="https://www.notion.so/markyabut/Design-of-communication-network-for-power-stations-ce7c52a6a3e44745ac11ebdc75e9634b"
           >
             Bachelors of Engineer: Electrical Engineering
           </a>
-          ) and has experience doing amazing things. He is trying his best to
-          improve himself so that he can provide even more value to the world.
-          This is his (
-          <a
-            target="_blank"
-            href="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/81376074-2d0f-4912-9a8d-c235ba51a714/MarkYabutResume.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201115T005937Z&X-Amz-Expires=86400&X-Amz-Signature=a261d91281268894f558d19c5342bfa526f91d6fc09d804595c683ddfc62ad54&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22MarkYabutResume.pdf%22"
-          >
-            resume
-          </a>
-          ).
+          ) and has experience doing amazing things. He thinks he is trying his
+          best to improve and provide value to the world. But maybe he's not
+          trying enough?
         </p>
         <h2>Things he likes</h2>
         <p>
@@ -77,7 +70,9 @@ const IndexPage = () => (
                 2. Coding: He was first introduced to coding back during his
                 first semester of his undergrad in 2013, in a course called
                 CPS125. He ended up getting a 4.33 gpa in that course, an early
-                sign of his love for code.
+                sign of his love for code. He was first taught C, Assembly,
+                Verilog, and Java during his time in school. He now focuses on
+                coding web applications using HTML, CSS and Javascript.
               </p>
             </li>
             <li>
@@ -112,14 +107,15 @@ const IndexPage = () => (
                 just a collection of his ideas for him to refer back to. He also
                 is trying to abide by the principles of "learn through teaching"
                 and "create notes to teach your future self because you forget."
-                So writes in a (<Link to="/tech">Tech Blog</Link>).
+                So he writes in a (<Link to="/tech">Tech Blog</Link>).
               </p>
             </li>
           </ul>
         </p>
         <h2>Say hello!</h2>
         <p>
-          Feel free to (<Link to="/contact">contact</Link>) him.
+          Feel free to (<Link to="/contact">contact</Link>) him, but please dont
+          break his netlify forms api.
         </p>
       </Content>
     </Layout>
