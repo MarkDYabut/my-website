@@ -34,6 +34,11 @@ const IndexPage = ({ data }) => {
       <Layout>
         <Content>
           <h1>Tech</h1>
+          <p>
+            A collection of posts about techonologies relevant to software
+            development, computer aided design, power electronics, 3d printing
+            and more.
+          </p>
           {data.allMarkdownRemark.edges
             .filter(({ node }) => {
               const rawDate = node.frontmatter.rawDate;

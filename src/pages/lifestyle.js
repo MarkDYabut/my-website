@@ -34,6 +34,11 @@ const IndexPage = ({ data }) => {
       <Layout>
         <Content>
           <h1>Lifestyle</h1>
+          <p>
+            A collection of ideas that focus on creativity, productivity,
+            optimization, efficiency, systems, motivation, and a bunch of other
+            buzz-words relevant to "self-growth."
+          </p>
           {data.allMarkdownRemark.edges
             .filter(({ node }) => {
               const rawDate = node.frontmatter.rawDate;

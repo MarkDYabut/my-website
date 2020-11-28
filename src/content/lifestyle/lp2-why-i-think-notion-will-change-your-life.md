@@ -1,7 +1,7 @@
 ---
 title: "Why I think Notion will change your life"
 date: "2020-07-03"
-draft: true
+draft: false
 category: "lifestyle"
 path: "/lifestyle/lp2-why-i-think-notion-will-change-your-life"
 ---
@@ -28,3 +28,14 @@ Notion serves as a central backbone or hub; allowing for clarity and focus for a
 ###“We don’t rise to the highest version of ourselves that we can imagine, we fall to the level of our systems”
 
 It’s our systems that hold and catch us when we fall. Recently I had gone through some really desperate moments in life, but it was thanks to my systems that I was able to easily find the motivation to get out of those moments. I am a firm believer that if anyone has any sort of goal, what’s more important than the goal itself; is the systems leading up to that goal. Notion has the power to be the “operating system” for life, a platform that allows for effective sub-system building.
+
+###Im not the only one who thinks this app will change your life
+A lot of my mentors on productivity vouch for this application and for good reason. Here is a list of good resources to get you started:
+
+- <a target="_blank" href="https://youtu.be/ZdRIS0AsYVQ">Sara Dietschy: Notion Setup Tour | How I Organize My YouTube Business and Life</a
+- <a target="_blank" href="https://www.youtube.com/watch?v=m9S5I3pWz94">Thomas Frank: The Most Powerful Productivity App I Use</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=qj9HeT-IaEg">Thomas Frank: My Notion Note - Taking System</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=ONG26-2mIHU">Ali Abdaal: My Favourite Note - Taking App for Students - Notion</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=uJgv0XQOehs">Ali Abdaal: My Creative Workflow with Notion</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=lKYBB-Uw1IM">Ali Abdaal: How I use Notion as a Resonance Calendar</a>
+- <a target="_blanl" href="https://www.youtube.com/playlist?list=PLAl0gPKnL3V8s7dPXoo07mYnuErhWVk8b">August Bradley: Full Notion Learning Playlist</a>

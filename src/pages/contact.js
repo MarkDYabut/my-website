@@ -151,7 +151,7 @@ const IndexPage = () => {
                   name="name"
                   onChange={handleChange}
                   value={formState.name}
-                  placeholder="Enter your name if you want"
+                  placeholder="Enter name, if you want"
                 />
                 <label htmlFor="email">Email</label>
                 <StyledInput
@@ -160,7 +160,7 @@ const IndexPage = () => {
                   name="email"
                   onChange={handleChange}
                   value={formState.email}
-                  placeholder="Enter your email if you want"
+                  placeholder="Enter email, if you want"
                 />
                 {/* <StyledFieldset>
               <legend>Gender</legend>
@@ -180,7 +180,7 @@ const IndexPage = () => {
                   name="message"
                   onChange={handleChange}
                   value={formState.message}
-                  placeholder="I am interested in..."
+                  placeholder="Enter a message!"
                 />
 
                 <StyledButton type="submit">Send</StyledButton>

@@ -13,11 +13,15 @@ const Content = styled.div`
   padding-top: 0;
 `;
 
-const GatsbyLink = styled(Link)`
-  margin-left: 5px;
+const NavLink = styled(Link)`
+  padding: 0 1.0875rem 1rem;
 `;
 
-const Footer = styled.footer`
+const A = styled.a`
+  padding: 0 1.0875rem 1rem;
+`;
+
+const Footer = styled.div`
   display: flex;
   justify-content: center;
 `;
@@ -39,7 +43,25 @@ const Layout = ({ children }) => (
         <Content>
           <main>{children}</main>
           <Footer>
-            <GatsbyLink to="/">Updated on 2020-11-26</GatsbyLink>
+            {" "}
+            <NavLink to="/">Home</NavLink>
+            {/* <NavLink to="/about">About</NavLink> */}
+            <NavLink to="/lifestyle">Lifestyle</NavLink>
+            <NavLink to="/tech">Tech</NavLink>
+          </Footer>
+          <Footer>
+            <A target="_blank" href="https://www.instagram.com/markyabut3/">
+              Instagram
+            </A>
+            <A
+              target="_blank"
+              href="https://www.linkedin.com/in/mark-yabut-218018152/"
+            >
+              Linkedin
+            </A>
+            <A target="_blank" href="https://github.com/MarkDYabut">
+              Github
+            </A>
           </Footer>
         </Content>
       </>
