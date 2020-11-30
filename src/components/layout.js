@@ -41,7 +41,9 @@ const Layout = ({ children }) => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
+          <hr />
           <main>{children}</main>
+          <hr />
           <Footer>
             <NavLink to="/">Home</NavLink>
             {/* <NavLink to="/about">About</NavLink> */}

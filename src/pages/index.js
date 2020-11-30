@@ -99,7 +99,14 @@ const IndexPage = () => (
         <h2>Say hello!</h2>
         <p>
           Feel free to (<Link to="/contact">contact</Link>) him, but please dont
-          break his netlify forms api.
+          break his netlify forms (
+          <a
+            target="_blank"
+            href="https://en.wikipedia.org/wiki/API#:~:text=An%20application%20programming%20interface%20(API,the%20conventions%20to%20follow%2C%20etc."
+          >
+            api
+          </a>
+          ).
         </p>
       </Content>
     </Layout>
