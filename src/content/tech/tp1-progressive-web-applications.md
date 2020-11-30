@@ -1,5 +1,5 @@
 ---
-title: "Progressive Web Applications"
+title: "Progressive web applications"
 
 date: "2020-11-20"
 
