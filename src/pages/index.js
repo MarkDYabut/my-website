@@ -19,9 +19,9 @@ const IndexPage = () => (
         <p>
           Mark Yabut is passionate about building healthy, but also efficient
           systems. Life can be viewed as a large system containg sub-systems and
-          processes. This site explores strategies, tools and ideas that could
-          help individuals improve their internal systems so that they may live
-          happier, healthier and productive lives.
+          processes. This site explores strategies, tools and ideas that attempt
+          to help an individual improve their internal systems such that they
+          may live happier, healthier and productive lives.
         </p>
         <h2>Who he is</h2>
         <p>
@@ -32,9 +32,9 @@ const IndexPage = () => (
           >
             Bachelors of Engineer: Electrical Engineering
           </a>
-          ) and has experience doing amazing things. He thinks he is trying his
-          best to improve and provide value to the world. But maybe he's not
-          trying enough?
+          ). He spends his time designing, optimizing, developing and writing.
+          He is constantly finding new ways to improve himself, and hopes his
+          journey will be usefull to someone.
         </p>
         <h2>Things he likes</h2>
         <p>
@@ -47,16 +47,16 @@ const IndexPage = () => (
           >
             design of a communication network for modern power stations
           </a>
-          ). As he tries to further his understanding of power he has picked up
-          some cool new hobbies. Things like electric vehicles, solar panels,
-          batteries, 3d printing, cad design.
+          ). As he tries to further his understanding of engineering design he
+          has picked up some cool new hobbies like; electric vehicles, solar
+          panels, batteries, 3d printing, cad design.
         </p>
         <p>
           2. Code: He was first introduced to coding back during his first
           semester of his undergrad in 2013, in a course called CPS125. He ended
           up getting a 4.33 gpa in that course, an early sign of his love for
           code. He was first taught C, Assembly, Verilog, and Java during his
-          time in school. He now focuses on coding (
+          time in school, now he focuses on developing (
           <Link to="/tech/tp-1progressive-web-applications">
             progressive web applications
           </Link>
@@ -82,8 +82,7 @@ const IndexPage = () => (
             Notion
           </Link>
           ) and believes that the one most important take away from his ideas ->
-          is to start organizing your life in Notion. He one day hopes that his
-          journey to optimization will be useful to someone.
+          is to start organizing your life in Notion.
         </p>
         <p>
           4. Write: He was never really much of a writer but he's found

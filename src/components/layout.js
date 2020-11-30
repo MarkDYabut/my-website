@@ -43,7 +43,6 @@ const Layout = ({ children }) => (
         <Content>
           <main>{children}</main>
           <Footer>
-            {" "}
             <NavLink to="/">Home</NavLink>
             {/* <NavLink to="/about">About</NavLink> */}
             <NavLink to="/lifestyle">Lifestyle</NavLink>
@@ -63,6 +62,8 @@ const Layout = ({ children }) => (
               Github
             </A>
           </Footer>
+          <br />
+          <Footer>All content © Mark Yabut</Footer>
         </Content>
       </>
     )}

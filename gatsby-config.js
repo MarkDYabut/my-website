@@ -3,7 +3,7 @@ module.exports = {
     title: `Mark Yabut`,
     subtitle: ``,
     description: `Mark Yabut Website`,
-    author: `Mark Yabut`,
+    author: `Mark Yabut is a EIT, designer, and occasional developer. He strives to build highly productive, sustainable and health systems.`,
   },
 
   plugins: [
