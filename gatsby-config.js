@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Mark Yabut`,
     subtitle: ``,
-    description: `Mark Yabut Website`,
-    author: `Mark Yabut is a EIT, designer, and occasional developer. He strives to build highly productive, sustainable and health systems.`,
+    description: `Mark Yabut is a EIT, designer, and software developer. He strives to build highly productive, sustainable and health systems.`,
+    author: `Mark Yabut`,
   },
 
   plugins: [
