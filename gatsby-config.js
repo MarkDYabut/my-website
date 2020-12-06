@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Mark Yabut Landing Page`,
+    title: `Mark Yabut`,
     subtitle: ``,
     description: `Mark Yabut is an EIT, designer, and software developer. He strives to build highly productive, sustainable and healthy systems.`,
     author: `Mark Yabut`,
