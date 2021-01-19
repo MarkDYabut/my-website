@@ -17,15 +17,14 @@ const IndexPage = () => (
       <Content>
         <h1>Mark Yabut</h1>
         <p>
-          Mark Yabut is passionate about building healthy, but also efficient
-          systems. Life can be viewed as a large system containg sub-systems and
-          processes. This site explores strategies, tools and ideas that attempt
-          to help an individual improve their internal systems such that they
-          may live happier, healthier and productive lives.
+          This site explores strategies, tools and ideas that attempt to help an
+          individual improve their internal systems such that they may live
+          happier, healthier and productive lives.
         </p>
         <h2>Who he is</h2>
         <p>
-          He is a new graduate from Ryerson University with a (
+          He recently started a new role as a Java Software Developer. He is an
+          undergraduate from Ryerson University with a (
           <a
             target="_blank"
             href="https://www.notion.so/markyabut/Bachelor-s-of-Engineering-Electrical-Engineering-3ebb3849592246a79f6252c7d674195f"
@@ -34,7 +33,7 @@ const IndexPage = () => (
           </a>
           ). He spends his time designing, optimizing, developing and writing.
           He is constantly finding new ways to improve himself, and hopes his
-          journey will be usefull to someone.
+          journey will be useful to someone.
         </p>
         <h2>Things he likes</h2>
         <p>
@@ -98,15 +97,7 @@ const IndexPage = () => (
         </p>
         <h2>Say hello!</h2>
         <p>
-          Feel free to (<Link to="/contact">contact</Link>) him, but please dont
-          break his netlify forms (
-          <a
-            target="_blank"
-            href="https://en.wikipedia.org/wiki/API#:~:text=An%20application%20programming%20interface%20(API,the%20conventions%20to%20follow%2C%20etc."
-          >
-            api
-          </a>
-          ).
+          Feel free to (<Link to="/contact">contact</Link>)
         </p>
       </Content>
     </Layout>
