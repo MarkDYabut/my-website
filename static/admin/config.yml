@@ -28,5 +28,5 @@ collections:
           widget: "select",
           options: ["lifestyle", "tech"],
         }
-      - { label: "Path", name: "path", widget: "string" }
+      - { label: "Path", name: "path", widget: "string", default: "/content/" }
       - { label: "Body", name: "body", widget: "markdown" }
