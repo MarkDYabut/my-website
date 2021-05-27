@@ -14,7 +14,7 @@ const Content = styled.div`
 `;
 
 const NavLink = styled(Link)`
-  padding: 0 1.0875rem 1rem;
+  padding: 0 0.3rem 0;
 `;
 
 const A = styled.a`
@@ -45,27 +45,8 @@ const Layout = ({ children }) => (
           <main>{children}</main>
           <hr />
           <Footer>
-            <NavLink to="/">Home</NavLink>
-            {/* <NavLink to="/about">About</NavLink> */}
-            <NavLink to="/lifestyle">Lifestyle</NavLink>
-            <NavLink to="/tech">Tech</NavLink>
+            Built by ©<NavLink to="/about">Mark Yabut</NavLink>
           </Footer>
-          <Footer>
-            <A target="_blank" href="https://www.instagram.com/markyabut3/">
-              Instagram
-            </A>
-            <A
-              target="_blank"
-              href="https://www.linkedin.com/in/mark-yabut-218018152/"
-            >
-              Linkedin
-            </A>
-            <A target="_blank" href="https://github.com/MarkDYabut">
-              Github
-            </A>
-          </Footer>
-          <br />
-          <Footer>All content © Mark Yabut</Footer>
         </Content>
       </>
     )}

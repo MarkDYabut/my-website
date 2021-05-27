@@ -11,10 +11,17 @@ const Content = styled.div`
 
 const NavLink = styled(Link)`
   color: black;
-  margin-left: 15px;
+  /* margin-left: 15px; */
   text-decoration: none;
   display: inline-block;
   position: relative;
+
+  border: 2px solid black;
+  border-radius: 5px;
+  border-color: #e7e7e7;
+  padding: 4px 8px;
+
+  color: black;
 
   ::after {
     content: "";
@@ -76,18 +83,16 @@ const SiteHeader = styled.header`
 const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
-      <p>
-        <NavLink to="/">Home</NavLink>
-        {/* <NavLink to="/about">About</NavLink> */}
-        <NavLink to="/lifestyle">Lifestyle</NavLink>
-        <NavLink to="/tech">Tech</NavLink>
-        {/* <NavLink
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="https://my-pomodoro.netlify.app/">Tools</NavLink>
+      <NavLink to="/lifestyle">Lifestyle</NavLink>
+      <NavLink to="/tech">Tech</NavLink>
+      {/* <NavLink
           target="_blank"
           to="https://www.notion.so/markyabut/Projects-d14b191e8d1843049e3ba19787a695f4"
         >
           Projects
         </NavLink> */}
-      </p>
     </Content>
   </SiteHeader>
 );
