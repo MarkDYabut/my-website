@@ -6,7 +6,7 @@ draft: false
 category: lifestyle
 path: /content/05-27-2021
 ---
-### Quote from "Can't hurt me - David Goggins"
+### Quote from Can't hurt me - David Goggins
 
 > "Nobody likes to hear the hard truth. Individually and as a culture, we avoid what we need to hear most. This world is fucked up, there are major problems in our society. We are still dividing ourselves up along racial and cultural lines, and people don't have the balls to hear it! The truth is racism and bigotry still fucking exist and some people are so thin-skinned they refuse to admit that."
 >
