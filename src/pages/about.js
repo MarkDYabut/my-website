@@ -80,7 +80,7 @@ const IndexPage = () => (
           <Link to="/lifestyle/lp2-why-i-think-notion-will-change-your-life">
             Notion
           </Link>
-          ) and believes that the one most important take away from his ideas ->
+          ) and believes that the one most important take away from his ideas:
           is to start organizing your life in Notion.
         </p>
         <p>

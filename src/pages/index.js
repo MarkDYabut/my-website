@@ -16,15 +16,13 @@ const IndexPage = () => (
     <Layout>
       <Content>
         <h1>Mark Yabut</h1>
-        <p>
-          If you're wondering where i've been; i've been trying to figure a few
-          things out. I apologize in advance for any inconveniencies.
-        </p>
+        <p>Advice is really your current-self talking to your former-self.</p>
         <p>
           This site explores strategies, tools and ideas that attempt to help an
           individual improve their internal systems such that they may live
           happier, healthier and productive lives.
         </p>
+        <p>Basically; this is me talking to myself.</p>
       </Content>
     </Layout>
   </>

@@ -13,13 +13,15 @@ const NavLink = styled(Link)`
   color: black;
   /* margin-left: 15px; */
   text-decoration: none;
-  display: inline-block;
+  display: block;
+  text-align: center;
   position: relative;
 
   border: 2px solid black;
   border-radius: 5px;
   border-color: #e7e7e7;
   padding: 4px 8px;
+  margin: 8px;
 
   color: black;
 
@@ -84,7 +86,7 @@ const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
       <NavLink to="/">Home</NavLink>
-      <NavLink to="https://my-pomodoro.netlify.app/">Tools</NavLink>
+      {/* <NavLink to="https://my-pomodoro.netlify.app/">Tools</NavLink> */}
       <NavLink to="/lifestyle">Lifestyle</NavLink>
       <NavLink to="/tech">Tech</NavLink>
       {/* <NavLink
