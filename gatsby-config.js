@@ -40,10 +40,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Level Up`,
-        short_name: `Level Up`,
-        start_url: `/`,
-        background_color: `#663399`,
+        name: `My Website`,
+        short_name: `MY`,
+        start_url: `/contact`,
+        background_color: `#000000`,
         theme_color: `#663399`,
         display: `standalone`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
