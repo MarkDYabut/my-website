@@ -44,8 +44,8 @@ const StyledForm = styled.form`
   padding: 40px;
   background-color: #fff;
   border-radius: 10px;
-  box-sizing: border-box;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  /* box-sizing: border-box;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2); */
 `;
 
 const StyledInput = styled.input`
@@ -97,7 +97,7 @@ const StyledTextArea = styled.textarea`
 const IndexPage = () => {
   const [formState, setFormState] = useState({
     name: "",
-    email: "",
+    contact: "",
     message: "",
   });
 
@@ -131,38 +131,37 @@ const IndexPage = () => {
   return (
     <>
       <SEO title="Contact" keywords={[`Mark Yabut`, `contact`, `email`]} />
-      <Layout>
-        <>
-          <Wrapper>
-            <StyledFormWrapper>
-              <StyledForm
-                onSubmit={handleSubmit}
-                name="contact"
-                method="post"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-              >
-                <input type="hidden" name="form-name" value="contact" />
-                <h2>Contact Form</h2>
-                <label htmlFor="name">Name</label>
-                <StyledInput
-                  id="name"
-                  type="text"
-                  name="name"
-                  onChange={handleChange}
-                  value={formState.name}
-                  placeholder="Enter name, if you want"
-                />
-                <label htmlFor="email">Email</label>
-                <StyledInput
-                  id="email"
-                  type="email"
-                  name="email"
-                  onChange={handleChange}
-                  value={formState.email}
-                  placeholder="Enter email, if you want"
-                />
-                {/* <StyledFieldset>
+      <>
+        <Wrapper>
+          {/* <StyledFormWrapper> */}
+          <StyledForm
+            onSubmit={handleSubmit}
+            name="contact"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <h2>Talk To Me</h2>
+            <label htmlFor="name">Name</label>
+            <StyledInput
+              id="name"
+              type="text"
+              name="name"
+              onChange={handleChange}
+              value={formState.name}
+              placeholder="Enter name"
+            />
+            <label htmlFor="contact">Contact Information</label>
+            <StyledInput
+              id="contact"
+              type="text"
+              name="contact"
+              onChange={handleChange}
+              value={formState.email}
+              placeholder="Enter email, instagram, or #"
+            />
+            {/* <StyledFieldset>
               <legend>Gender</legend>
               <label>
                 <input type="radio" value="female" name="gender" />
@@ -173,22 +172,21 @@ const IndexPage = () => {
                 Male
               </label>
             </StyledFieldset> */}
-                <label htmlFor="message">Message</label>
-                <StyledTextArea
-                  id="message"
-                  type="message"
-                  name="message"
-                  onChange={handleChange}
-                  value={formState.message}
-                  placeholder="Enter a message!"
-                />
+            <label htmlFor="message">Message</label>
+            <StyledTextArea
+              id="message"
+              type="text"
+              name="message"
+              onChange={handleChange}
+              value={formState.message}
+              placeholder="Enter a message!"
+            />
 
-                <StyledButton type="submit">Send</StyledButton>
-              </StyledForm>
-            </StyledFormWrapper>
-          </Wrapper>
-        </>
-      </Layout>
+            <StyledButton type="submit">Send</StyledButton>
+          </StyledForm>
+          {/* </StyledFormWrapper> */}
+        </Wrapper>
+      </>
     </>
   );
 };

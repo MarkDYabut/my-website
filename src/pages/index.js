@@ -15,7 +15,7 @@ const IndexPage = () => (
     <SEO title="Index" keywords={[`Mark Yabut`, `about`, `information`]} />
     <Layout>
       <Content>
-        <h1>Mark Yabut</h1>
+        <h1>Mark Yabut 2</h1>
         <p>Advice is really your current-self talking to your former-self.</p>
         <p>
           This site explores strategies, tools and ideas that attempt to help an
