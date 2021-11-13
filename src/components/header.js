@@ -89,6 +89,7 @@ const Header = ({ siteTitle }) => (
       {/* <NavLink to="https://my-pomodoro.netlify.app/">Tools</NavLink> */}
       <NavLink to="/lifestyle">Lifestyle</NavLink>
       <NavLink to="/tech">Tech</NavLink>
+      <NavLink to="/contact">Contact</NavLink>
       {/* <NavLink
           target="_blank"
           to="https://www.notion.so/markyabut/Projects-d14b191e8d1843049e3ba19787a695f4"
