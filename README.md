@@ -1,7 +1,7 @@
 # [markyabut.com](https://markyabut.com/)
 
-Powered by [GatsbyJS](https://www.gatsbyjs.com/)
+Powered by <a href="https://www.gatsbyjs.com/" target="_blank">GatsbyJS</a>
 
-Deployed with [Netlify](https://www.netlify.com/)
+Deployed with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 
-Content managed using [NetlifyCMS](https://www.netlifycms.org/)
+Content managed using <a href="https://www.netlifycms.org/" target="_blank">NetlifyCMS</a>
