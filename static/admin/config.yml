@@ -12,9 +12,9 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/content"
+  - name: "blog-lifestyle"
+    label: "Blog Lifestyle"
+    folder: "src/content/lifestyle"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -26,7 +26,25 @@ collections:
           label: "Category",
           name: "category",
           widget: "select",
-          options: ["lifestyle", "tech"],
+          options: ["lifestyle"],
         }
-      - { label: "Path", name: "path", widget: "string", default: "/content/" }
+      - { label: "Path", name: "path", widget: "string", default: "/lifestyle/" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "blog-tech"
+    label: "Blog Tech"
+    folder: "src/content/tech"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options: ["tech"],
+        }
+      - { label: "Path", name: "path", widget: "string", default: "/tech/" }
       - { label: "Body", name: "body", widget: "markdown" }

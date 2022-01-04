@@ -12,7 +12,7 @@ const Content = styled.div`
 
 const IndexPage = () => (
   <>
-    <SEO title="Index" keywords={[`Mark Yabut`, `about`, `information`]} />
+    <SEO title="Home" keywords={[`Mark Yabut`, `about`, `information`]} />
     <Layout>
       <Content>
         <h1>Mark Yabut</h1>

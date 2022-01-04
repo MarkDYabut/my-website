@@ -51,9 +51,9 @@ const Layout = ({ children }) => (
           <hr />
 
           <BottomLinks>
-            <RegLink href="https://my-pomodoro.netlify.app/" target="_blank">
+            {/* <RegLink href="https://my-pomodoro.netlify.app/" target="_blank">
               Tools
-            </RegLink>
+            </RegLink> */}
             <RegLink
               href="https://www.linkedin.com/in/mark-yabut-218018152/"
               target="_blank"
@@ -66,12 +66,12 @@ const Layout = ({ children }) => (
             >
               Instagram
             </RegLink>
-            <RegLink
+            {/* <RegLink
               href="https://github.com/MarkDYabut/my-website"
               target="_blank"
             >
               Github
-            </RegLink>
+            </RegLink> */}
           </BottomLinks>
 
           <Footer>

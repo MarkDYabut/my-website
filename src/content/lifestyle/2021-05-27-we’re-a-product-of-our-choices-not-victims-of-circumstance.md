@@ -4,7 +4,7 @@ title: We’re a product of our choices, not victims of circumstance
 date: 2021-05-27T21:51:45.734Z
 draft: false
 category: lifestyle
-path: /content/05-27-2021
+path: /lifestyle/were-a-product-of-our-choices-not-victims-of-circumstance
 ---
 ### Quote from Can't hurt me - David Goggins
 

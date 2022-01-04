@@ -7,6 +7,7 @@ import { Global, css } from "@emotion/core";
 const Wrapper = styled.div`
   margin-top: 30px;
   margin-bottom: 50px;
+  
 
   html {
     height: 180%;
@@ -36,6 +37,7 @@ const StyledFormWrapper = styled.div`
   align-items: center;
   height: 70vh;
   padding: 0 20px;
+  
 `;
 
 const StyledForm = styled.form`
