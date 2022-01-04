@@ -8,7 +8,7 @@ path: /tech/what-is-a-software-test-engineer
 ---
 ### Outsourced Definition
 
-Here's a [link](https://www.betterteam.com/software-test-engineer-job-description) of someone else's definition of a software test engineer.
+Here's a <a href="https://www.betterteam.com/software-test-engineer-job-description" target="_blank">link</a> of someone else's definition of a software test engineer.
 
 ### My Definition
 
@@ -16,7 +16,7 @@ An overqualified quality assurance analyst, who develops software used to test o
 
 ### The Software Development Life Cycle
 
-Here's a [link](https://www.tutorialspoint.com/sdlc/sdlc_overview.htm) if you want to dive deeper to the SDLC, but I am bringing it up to outline the role of a SET in relation to the SDLC.
+Here's a <a href="https://www.tutorialspoint.com/sdlc/sdlc_overview.htm" target="_blank">link</a> if you want to dive deeper to the SDLC, but I am bringing it up to outline the role of a SET in relation to the SDLC.
 
 ![team that carries out the sdlc](/img/sdlc-team.png "team-that-carries-out-the-sdlc")
 
