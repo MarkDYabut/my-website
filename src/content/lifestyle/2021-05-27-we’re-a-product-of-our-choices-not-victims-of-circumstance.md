@@ -12,7 +12,7 @@ path: /lifestyle/were-a-product-of-our-choices-not-victims-of-circumstance
 >
 > "But if you are the only, and you aren't stuck in some real-world genocidal twilight zone, you'd better get real too. Your life is not fucked up because of overt racists or hidden systemic racism. You aren't missing out on opportunities, making shit money, and getting evicted because of America or Donald fucking Trump or because your ancestors were slaves or because some people hate immigrants or Jews or harass women or believe gay people are going to hell. If any of that shit is stopping you from excelling in life, I've got some news. *You are stopping you."*
 
-[Link to book](https://www.amazon.ca/Cant-Hurt-Me-Master-Your/dp/1544512287/ref=sr_1_1?dchild=1&keywords=david+goggins&qid=1623695825&sr=8-1)
+> <a href="https://www.amazon.ca/Cant-Hurt-Me-Master-Your/dp/1544512287/ref=sr_1_1?dchild=1&keywords=david+goggins&qid=1623695825&sr=8-1" target="_blank">Link to book</a>
 
 ### Circumstance
 
