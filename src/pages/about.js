@@ -12,7 +12,6 @@ const Content = styled.div`
 
 const IndexPage = () => (
   <>
-    <SEO title="About" keywords={[`Mark Yabut`, `about`, `information`]} />
     <Layout>
       <Content>
         <h1>About</h1>

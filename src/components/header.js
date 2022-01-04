@@ -85,10 +85,10 @@ const SiteHeader = styled.header`
 const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
-      <NavLink to="/">Home</NavLink>
+      <NavLink to="/">Home Page</NavLink>
       {/* <NavLink to="https://my-pomodoro.netlify.app/">Tools</NavLink> */}
-      <NavLink to="/lifestyle">Lifestyle</NavLink>
-      <NavLink to="/tech">Tech</NavLink>
+      <NavLink to="/lifestyle">Lifestyle Blog</NavLink>
+      <NavLink to="/tech">Tech Blog</NavLink>
       {/* <NavLink to="/contact">Contact</NavLink> */}
       {/* <NavLink
           target="_blank"

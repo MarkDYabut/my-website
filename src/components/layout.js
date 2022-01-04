@@ -61,21 +61,23 @@ const Layout = ({ children }) => (
               Linkedin
             </RegLink>
             <RegLink
+              href="https://github.com/MarkDYabut/my-website"
+              target="_blank"
+            >
+              Source Code
+            </RegLink>
+            <RegLink
               href="https://www.instagram.com/markyabut3/"
               target="_blank"
             >
               Instagram
             </RegLink>
-            {/* <RegLink
-              href="https://github.com/MarkDYabut/my-website"
-              target="_blank"
-            >
-              Github
-            </RegLink> */}
+            {/* <NavLink to="/youtube">Youtube</NavLink> */}
+
           </BottomLinks>
 
           <Footer>
-            Built by ©<NavLink to="/tech/tech-post-2">Mark Yabut</NavLink>
+            Built by <NavLink to="/tech/tech-post-2">Mark Yabut</NavLink>
           </Footer>
         </Content>
       </>

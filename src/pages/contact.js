@@ -132,10 +132,9 @@ const IndexPage = () => {
 
   return (
     <>
-      <SEO title="Contact" keywords={[`Mark Yabut`, `contact`, `email`]} />
       <>
         <Wrapper>
-          {/* <StyledFormWrapper> */}
+          <StyledFormWrapper>
           <StyledForm
             onSubmit={handleSubmit}
             name="contact"
@@ -186,7 +185,7 @@ const IndexPage = () => {
 
             <StyledButton type="submit">Send</StyledButton>
           </StyledForm>
-          {/* </StyledFormWrapper> */}
+          </StyledFormWrapper>
         </Wrapper>
       </>
     </>

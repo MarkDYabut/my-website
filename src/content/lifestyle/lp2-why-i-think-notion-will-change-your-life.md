@@ -1,9 +1,9 @@
 ---
-title: "Why I think Notion will change your life"
+title: "Why Notion changed my life"
 date: "2020-07-03"
 draft: false
 category: "lifestyle"
-path: "/lifestyle/lp2-why-i-think-notion-will-change-your-life"
+path: "/lifestyle/why-notion-changed-my-life"
 ---
 
 [Notion](https://www.notion.so) introduces their application as “A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team.” I think “all-in-one” is a very fair representation because it truly has the power to do (almost) anything you can imagine. A big emphasis on the “almost” as I do think with the right approach it can do “everything.”

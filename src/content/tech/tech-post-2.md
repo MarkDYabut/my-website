@@ -1,5 +1,5 @@
 ---
-title: "This site was built with GatsbyJS"
+title: "This website was built with GatsbyJS"
 date: "2020-07-06"
 draft: false
 category: "tech"
@@ -10,16 +10,18 @@ path: "/tech/tech-post-2"
 
 <a target="_blank" href="https://www.gatsbyjs.com/">Gatsby</a> weaves together the best parts of modern web technologies such as React, webpack, react-router, and GraphQL. If you don’t know what those technologies are, it’s okay! I would say that’s the beauty of Gatsby, you don’t actually need to immediately know all the technologies being used within the application. This is because at the start of development of your application with Gatsby, you are provided with a structure that has all these technologies configured.
 
-###Why should I want to learn these new technologies?
+###What is the benefit of these technologies compared to sitebuilders such as squarespace?
 
 Use this application as an example, try clicking between pages; it’s super fast! Below is a lighthouse test which is a web developer tool that can give you an idea of how performant a website is.
 
 ![pic](./lighthouse.png)
 
-I rebuilt a client's <a target="_blank" href="https://www.squarespace.com/">Squarespace</a> made website recently. I used Gatsby to rebuild the site and these are the performance metrics before and after.
+I rebuilt a client's <a target="_blank" href="https://www.squarespace.com/">Squarespace</a> made website recently. I used Gatsby to rebuild the site and these are the performance metrics before (white-background) and after (black-background).
 
 ![pic2](./before.png)
 ![pic3](./after.png)
+
+Good metrics will also lead to better search engine optimization (SEO), allowing your website to rank higher on search engines such as google.
 
 ###Use Gatsby to learn the basics
 

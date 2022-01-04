@@ -12,7 +12,7 @@ const Content = styled.div`
 
 const IndexPage = () => (
   <>
-    <SEO title="Home" keywords={[`Mark Yabut`, `about`, `information`]} />
+    <SEO title="Home" keywords={[`Mark Yabut`, `about`, `index`]} />
     <Layout>
       <Content>
         <h1>Mark Yabut</h1>
@@ -21,7 +21,16 @@ const IndexPage = () => (
           This site aims to share my journey as I explore strategies, tools and ideas that attempt improve my internal systems so that I may live
           a happier, healthier and productive life (and maybe inspire the reader).
         </p>
-        <p>Basically; this is me talking to myself.</p>
+        <h2>About Me</h2>
+        <p>
+          Mark works as a software test engineer, where he works on improving testing processes through automation. He spends time writing about what
+          he's learned while working in tech as he believes that the formula for success and happiness is sharing what we learn, even if it's something
+          that we may feel that "everybody knows." 
+        </p>
+        <p>
+        He is trying his best to follow his own advice and learn from the advice given to him.
+        </p>
+
       </Content>
     </Layout>
   </>
