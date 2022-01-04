@@ -19,7 +19,7 @@ const IndexPage = () => (
         <p>Advice is really your current-self talking to your former-self.</p>
         <p>
           This site aims to share my journey as I explore strategies, tools and ideas that attempt improve my internal systems so that I may live
-          a happier, healthier and productive life (And maybe inspire the reader).
+          a happier, healthier and productive life (and maybe inspire the reader).
         </p>
         <p>Basically; this is me talking to myself.</p>
       </Content>

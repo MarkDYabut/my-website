@@ -35,9 +35,7 @@ const IndexPage = ({ data }) => {
         <Content>
           <h1>Tech</h1>
           <p>
-            A collection of posts about techonologies relevant to software
-            development, computer aided design, power electronics, 3d printing
-            and more.
+            A collection of posts about technology based on my past, present and future interests.
           </p>
           {data.allMarkdownRemark.edges
             .filter(({ node }) => {

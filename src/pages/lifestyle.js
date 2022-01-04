@@ -35,9 +35,7 @@ const IndexPage = ({ data }) => {
         <Content>
           <h1>Lifestyle</h1>
           <p>
-            A collection of ideas that focus on creativity, productivity,
-            optimization, efficiency, systems, motivation, and a bunch of other
-            buzz-words relevant to "self-growth."
+            A collection of thoughts inspired by the experiences and ideas surrounding me.
           </p>
           {data.allMarkdownRemark.edges
             .filter(({ node }) => {
