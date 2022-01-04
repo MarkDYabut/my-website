@@ -1,5 +1,5 @@
 ---
-title: "The web stack as of August 2020"
+title: "The web stack as of august 2020"
 date: "2020-08-18"
 draft: false
 category: "tech"

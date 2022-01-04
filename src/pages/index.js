@@ -10,6 +10,10 @@ const Content = styled.div`
   padding: 1.45rem 1.0875rem;
 `;
 
+const NavLink = styled(Link)`
+  padding: 0 0.3rem 0;
+`;
+
 const IndexPage = () => (
   <>
     <SEO title="Home" keywords={[`Mark Yabut`, `about`, `index`]} />
@@ -23,12 +27,12 @@ const IndexPage = () => (
         </p>
         <h2>About Me</h2>
         <p>
-          Mark works as a software test engineer, where he works on improving testing processes through automation. He spends time writing about what
+          Mark works as a <NavLink to="/tech/what-is-a-software-test-engineer">software test engineer,</NavLink> where he works on improving testing processes through automation. He spends time writing about what
           he's learned while working in tech as he believes that the formula for success and happiness is sharing what we learn, even if it's something
-          that we may feel that "everybody knows." 
+          that we may feel that "everybody knows."
         </p>
         <p>
-        He is trying his best to follow his own advice and learn from the advice given to him.
+          He is trying his best to follow his own advice and learn from the advice given to him.
         </p>
 
       </Content>
