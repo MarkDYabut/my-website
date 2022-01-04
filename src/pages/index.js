@@ -18,9 +18,8 @@ const IndexPage = () => (
         <h1>Mark Yabut</h1>
         <p>Advice is really your current-self talking to your former-self.</p>
         <p>
-          This site explores strategies, tools and ideas that attempt to help an
-          individual improve their internal systems such that they may live
-          happier, healthier and productive lives.
+          This site aims to share my journey as I explore strategies, tools and ideas that attempt improve my internal systems so that I may live
+          a happier, healthier and productive life (And maybe inspire the reader).
         </p>
         <p>Basically; this is me talking to myself.</p>
       </Content>
