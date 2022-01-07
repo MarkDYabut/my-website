@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Mark Yabut`,
     subtitle: `Mark Yabut's Web Presence`,
-    description: `Mark Yabut is a junior software engineer in test by profession, electrical engineer by education, designer, creator, and writer. He strives to build highly productive, sustainable and healthy systems.`,
+    description: `Mark Yabut is a junior software engineer in test by profession, electrical engineer by education. He strives to build highly productive, yet sustainable systems.`,
     author: `Mark Yabut`,
   },
 

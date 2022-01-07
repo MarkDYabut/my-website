@@ -20,21 +20,37 @@ const IndexPage = () => (
     <Layout>
       <Content>
         <h1>Mark Yabut</h1>
-        <p>Advice is really your current-self talking to your former-self.</p>
         <p>
+          <i>
+            "Advice is really your current-self talking to your former-self."
+          </i>
+        </p>
+        <p>
+
           This site aims to share my journey as I explore strategies, tools and ideas that attempt improve my internal systems so that I may live
           a happier, healthier and productive life (and maybe inspire the reader).
+
         </p>
         <h2>About Me</h2>
         <p>
-          Mark works as a <NavLink to="/tech/what-is-a-software-test-engineer">software test engineer,</NavLink> where he works on improving testing processes through automation. He spends time writing about what
-          he's learned while working in tech as he believes that the formula for success and happiness is sharing what we learn, even if it's something
-          that we may feel that "everybody knows."
+          I work as a <NavLink to="/tech/what-is-a-software-test-engineer">software test engineer,</NavLink> where I work on improving testing processes through automation. I also spend time writing about what
+          i've learned while working in tech as I believe that;
         </p>
         <p>
-          He is trying his best to follow his own advice and learn from the advice given to him.
+          <i>
+            "The formula for success and happiness is sharing what we learn, even if it's something
+            that we may feel that 'everybody knows.'"
+          </i>
         </p>
-
+        <h2>Disclosure</h2>
+        <p>
+          The ideas i've shared here are both of my own and of my influences.
+        </p>
+        <p>
+          <i>
+            "Take what you want and leave the rest."
+          </i>
+        </p>
       </Content>
     </Layout>
   </>

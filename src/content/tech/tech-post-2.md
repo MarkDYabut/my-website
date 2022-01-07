@@ -1,5 +1,5 @@
 ---
-title: "This website was built with GatsbyJS"
+title: "This website was built with Gatsby"
 date: "2020-07-06"
 draft: false
 category: "tech"
