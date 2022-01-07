@@ -11,8 +11,8 @@ path: /lifestyle/were-a-product-of-our-choices-not-victims-of-circumstance
 > "Nobody likes to hear the hard truth. Individually and as a culture, we avoid what we need to hear most. This world is fucked up, there are major problems in our society. We are still dividing ourselves up along racial and cultural lines, and people don't have the balls to hear it! The truth is racism and bigotry still fucking exist and some people are so thin-skinned they refuse to admit that."
 >
 > "But if you are the only, and you aren't stuck in some real-world genocidal twilight zone, you'd better get real too. Your life is not fucked up because of overt racists or hidden systemic racism. You aren't missing out on opportunities, making shit money, and getting evicted because of America or Donald fucking Trump or because your ancestors were slaves or because some people hate immigrants or Jews or harass women or believe gay people are going to hell. If any of that shit is stopping you from excelling in life, I've got some news. *You are stopping you."*
-
-> <a href="https://www.amazon.ca/Cant-Hurt-Me-Master-Your/dp/1544512287/ref=sr_1_1?dchild=1&keywords=david+goggins&qid=1623695825&sr=8-1" target="_blank">Link to book</a>
+>
+> <a target="_blank" href="https://www.amazon.ca/gp/product/1544507852/ref=as_li_tl?ie=UTF8&camp=15121&creative=330641&creativeASIN=1544507852&linkCode=as2&tag=mdotyabut-20&linkId=ee7b549287e5b3149d6f674aa628b491">Can't Hurt Me: Master Your Mind and Defy the Odds</a>
 
 ### Circumstance
 
