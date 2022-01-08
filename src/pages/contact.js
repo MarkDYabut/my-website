@@ -35,15 +35,13 @@ const StyledFormWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
   padding: 0 20px;
-  
 `;
 
 const StyledForm = styled.form`
   width: 100%;
   max-width: 700px;
-  padding: 40px;
+  padding: 0px;
   background-color: #fff;
   border-radius: 10px;
   /* box-sizing: border-box;
