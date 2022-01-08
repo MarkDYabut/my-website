@@ -31,6 +31,10 @@ const sharedStyles = css`
   box-sizing: border-box;
 `;
 
+const AnotherWrapper = styled.div`
+  height: 40px;
+`;
+
 const StyledFormWrapper = styled.div`
   display: flex;
   justify-content: center;
@@ -129,7 +133,7 @@ const IndexPage = () => {
   };
 
   return (
-    <>
+    <AnotherWrapper>
       <Layout>
         <Wrapper>
           <StyledFormWrapper>
@@ -186,7 +190,7 @@ const IndexPage = () => {
           </StyledFormWrapper>
         </Wrapper>
       </Layout>
-    </>
+    </AnotherWrapper>
   );
 };
 
