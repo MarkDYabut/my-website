@@ -53,7 +53,7 @@ const IndexPage = () => (
             even if it's something that we may feel that 'everybody knows.'"
           </i>
         </p>
-        <h2>What is this for</h2>
+        <h2>Why this</h2>
         <p>
           For a while I’d wake up every morning, go through the same routines
           and by the end of it, ask myself: “isn’t it supposed to get easier?”
