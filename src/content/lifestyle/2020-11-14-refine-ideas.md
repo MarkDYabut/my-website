@@ -3,7 +3,7 @@ title: "Refine ideas"
 date: "2020-11-14"
 draft: false
 category: "lifestyle"
-path: "/lifestyle/op2-refine-ideas"
+path: "/lifestyle/refine-ideas"
 ---
 
 Once you get a hang of capturing ideas, you'll find your shelf will start to get unorganized very fast. It is important to really understand the problem at hand and figure out a lasting solution.

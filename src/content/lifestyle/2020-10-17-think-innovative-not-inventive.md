@@ -3,7 +3,7 @@ title: "Think innovative not inventive"
 date: "2020-10-17"
 draft: false
 category: "lifestyle"
-path: "/lifestyle/lp4-think-innovative-not-inventive"
+path: "/lifestyle/think-innovative-not-inventive"
 ---
 
 An innovator is a person who radically improves the design of something. Someone who builds on previous thoughts or ideas in a creative and forward thinking manner.

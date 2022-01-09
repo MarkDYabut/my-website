@@ -3,7 +3,7 @@ title: "Be better than yesterday"
 date: "2020-10-03"
 draft: false
 category: "lifestyle"
-path: "/lifestyle/lp5-be-better-than-yesterday"
+path: "/lifestyle/be-better-than-yesterday"
 ---
 
 The idea is to not become stagnant, or dormant; to always strive for growth. It's a realization that there is always ways to improve in every aspect of life - your career, health, hobbies, relationships, and more. The problem is finding it and finding the solution, but it's okay; you can start by being more mindful of these things. Think of life as a system consisting of smaller processes, if you find a process is slow; take note of it and think of ways to improve - then experiment

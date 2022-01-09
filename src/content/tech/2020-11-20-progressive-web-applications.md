@@ -7,7 +7,7 @@ draft: false
 
 category: "tech"
 
-path: "/tech/tp-1progressive-web-applications"
+path: "/tech/progressive-web-applications"
 ---
 
 It all began over 12 years ago at the event where Steve Job's announced the very first iPhone. It was an idea that native mobile applications, applications that user's would download would be over thrown by web sites.

@@ -3,7 +3,7 @@ title: "This website was built with Gatsby"
 date: "2020-07-06"
 draft: false
 category: "tech"
-path: "/tech/tech-post-2"
+path: "/tech/this-website-was-built-with-gatsby"
 ---
 
 ###What is Gatsby?

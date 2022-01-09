@@ -3,7 +3,7 @@ title: "The web stack as of august 2020"
 date: "2020-08-18"
 draft: false
 category: "tech"
-path: "/tech/tech-post-3"
+path: "/tech/the-web-stack-as-of-august-2020"
 ---
 
 Just got a new macbook, so I figured I'd list out my current technology stack that I am using to build out my web applications.

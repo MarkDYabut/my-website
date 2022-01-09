@@ -3,7 +3,7 @@ title: "Capture ideas"
 date: "2020-11-07"
 draft: false
 category: "lifestyle"
-path: "/lifestyle/op1-capture-ideas"
+path: "/lifestyle/capture-ideas"
 ---
 
 Write, record, or gather any and everything that has your attention into a collection tool. Realize that your brain is for having ideas, not storing them. The theory is to capture the thought immediately because we can't store them for long in our heads. Your system for capturing can be analog, digital or both.

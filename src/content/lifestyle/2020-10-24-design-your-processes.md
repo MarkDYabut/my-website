@@ -3,7 +3,7 @@ title: "Design your processes"
 date: "2020-10-24"
 draft: false
 category: "lifestyle"
-path: "/lifestyle/op3-design-your-processes"
+path: "/lifestyle/design-your-processes"
 ---
 
 We've talked about systems, and how a way of viewing life is through systems that are made up of processes. Now how do we go about creating these processes? Design them. So the first process we should make is a "Design Process."

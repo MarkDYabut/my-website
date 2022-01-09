@@ -3,7 +3,7 @@ title: "Motivation should be quantified"
 date: "2020-06-26"
 draft: false
 category: "lifestyle"
-path: "/lifestyle/lp1-motivation-should-be-quantified"
+path: "/lifestyle/motivation-should-be-quantified"
 ---
 
 I have always found myself struggling to maintain consistent motivation when in pursuit of my goals. I would find that motivation would come in bursts, and then exponentially dissipate over time.

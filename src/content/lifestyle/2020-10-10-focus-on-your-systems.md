@@ -3,7 +3,7 @@ title: "Focus on your systems"
 date: "2020-10-10"
 draft: false
 category: "lifestyle"
-path: "/lifestyle/op4-focus-on-your-systems"
+path: "/lifestyle/focus-on-your-systems"
 ---
 
 It is common knowledge that the best way to achieve what we want in life: become successful, get in shape, build a business, be happy - is to set specific goals. Some goals could be:

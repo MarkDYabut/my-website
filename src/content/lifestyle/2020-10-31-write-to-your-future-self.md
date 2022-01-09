@@ -3,7 +3,7 @@ title: "Write to your future self"
 date: "2020-10-31"
 draft: false
 category: "lifestyle"
-path: "/lifestyle/lp3-write-to-your-future-self"
+path: "/lifestyle/write-to-your-future-self"
 ---
 
 There's a theory that when people give you advice, they're really just talking to themselves in the past. What I write can be an example of me talking to a previous version of myself. If there's also a theory that the best way to understand something is to teach it. Then if I write to my future self with the intention of teaching my future self, I not only further increase my current understanding but also my future understanding?
