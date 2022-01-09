@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: My development lifecycle for 2022
+title: My development life cycle
 date: 2022-01-09T21:05:38.555Z
 draft: false
 category: lifestyle
