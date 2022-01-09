@@ -2,7 +2,7 @@
 layout: blog
 title: We’re a product of our choices, not victims of circumstance
 date: 2021-05-27T21:51:45.734Z
-draft: false
+draft: true
 category: lifestyle
 path: /lifestyle/were-a-product-of-our-choices-not-victims-of-circumstance
 ---
