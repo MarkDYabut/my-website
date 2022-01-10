@@ -34,7 +34,7 @@ Parse through what you had found, find what’s useful and what’s not.
 
 *“Build something with the loot”*
 
-See what you can make with your new findings.
+Construct an understanding.
 
 ### Share
 
