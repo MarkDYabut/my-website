@@ -6,8 +6,6 @@ draft: false
 category: lifestyle
 path: /lifestyle/my-development-lifecycle
 ---
-## Definition
-
 Inspired by the idea of a software development life cycle, a technique used within tech to develop new software. My development life cycle, MDLC; is an experimental iterative life cycle of my development. Defined in 6 steps:
 
 ![](/img/my-development-lifecycle.png)
