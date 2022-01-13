@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Life cycle
+title: Life cycles
 date: 2022-01-09T21:05:38.555Z
 draft: false
 category: lifestyle
