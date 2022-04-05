@@ -147,7 +147,6 @@ const IndexPage = ({ data }) => {
           <p>
             <i>"Take what you want and leave the rest."</i>
           </p>
-          <p>And a friendly reminder that this is a work-in-progress.</p>
         </Content>
       </Layout>
     </>
