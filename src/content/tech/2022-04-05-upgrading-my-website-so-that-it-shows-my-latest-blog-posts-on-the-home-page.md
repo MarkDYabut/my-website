@@ -69,14 +69,14 @@ At this point I have most of the implementation complete; From a learning perspe
 
 ## Done! Time to Deploy
 
-Now I just need to deploy the code onto the world wide web. To deploy the code I am simply going to stage the changes locally and then commit it up straight into my master branch because I'm a savage like that I like pushing things straight into production ;) - don't worry I don't do this at work.
+Now I just need to deploy the code onto the world wide web.
+ To deploy the code I am simply going to stage the changes locally and then commit it up straight into my master branch because I'm a savage like that I like pushing things straight into production ;) - don't worry I don't do this at work.
 
 1. `git status` to see the changes.
 2. `git add .` to add changes to staging.
 3. `git commit -m 'message here' to stage changes.
 4. `git push` to push changes up to github, which is where my codebase is hosted.
 5. Finally, I will check netlify, which is where my codebase gets built and deployed; and make sure it gets built properly
-
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1f0f716a-d7e0-4601-b0f5-7ccc0ebdbbed/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220405%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220405T040930Z&X-Amz-Expires=86400&X-Amz-Signature=afa8299cd86374bbf8adaa16255caf6eb911aaf000252e687910ad8ae7aa3d7c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
@@ -88,3 +88,4 @@ Now I just need to deploy the code onto the world wide web. To deploy the code 
 
 That was fun, I learned a lot and I feel like by sharing the process with the reader I gave myself a better change to retain those learnings. All in all I think it took me about 1 hour of coding, and 1 hour typing up this blog post!
 
+If you'd like to see the exact code changes I made to make this happen check out this [commit](https://github.com/MarkDYabut/my-website/commit/82a247a29485ef1122202c8053fbb0c90052aff0).
