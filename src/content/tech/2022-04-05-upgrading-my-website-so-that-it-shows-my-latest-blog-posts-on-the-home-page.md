@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Making my website show my latest blog posts on the home page
+title: Making this website show my latest blog posts on the home page
 date: 2022-04-05T03:25:56.441Z
 draft: false
 category: tech
