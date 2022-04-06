@@ -36,7 +36,7 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" keywords={[`Mark Yabut`, `about`, `index`]} />
       <Layout>
         <Content>
-          <h1>Mark Yabut</h1>
+          <h1>Mark Dyllan Yabut</h1>
           <p>
             <i>
               "Advice is really your current-self talking to your former-self."
@@ -54,7 +54,7 @@ const IndexPage = ({ data }) => {
             <NavLink to="/tech/what-is-a-software-test-engineer">
               software test engineer,
             </NavLink>
-            where I work on improving testing processes through automation. I have
+            where I work on improving testing processes through code. I have
             an education in{" "}
             <a
               href="https://www.ryerson.ca/programs/undergraduate/electrical-engineering/"
@@ -62,36 +62,41 @@ const IndexPage = ({ data }) => {
             >
               electrical engineering
             </a>
-            . I also spend time writing about what i've learned while working in
+            {" "} that currently has a solid 0-20% relevancy to what I do. I also spend time writing about what i've learned while working in
             tech as I believe that:
           </p>
           <p>
             <i>
               "The formula for success and happiness is sharing what we learn,
-              even if it's something that we may feel that 'everybody knows.'"
+              even if it's something that we may feel that 'everybody knows.'" - I totally stole this quote from someone and I forgot who
             </i>
           </p>
           <hr />
-          <h2>Why this</h2>
-          <p>
-            For a while I’d wake up every morning, go through the same routines
-            and by the end of it, ask myself: “isn’t it supposed to get easier?”
-            Everything got better for me when I made peace with the fact that it
-            will not ever get easier; life is hard.
-          </p>
-          <p>
-            Back to the original question, I developed this place because I needed
-            it.
-          </p>
-          <p>
-            When things are going well or not so well; the question is always the
-            same “how to keep going?” With everything getting more complex, it’s
-            easy to get stuck and feel like we’re not getting anywhere.
-          </p>
-          <p>
-            This place is somewhere to track my milestones and a reminder to
-            myself that I am pushing forward.
-          </p>
+          <h2>Latest Tech Blog Posts</h2>
+          {data.tech.edges
+            .filter(({ node }) => {
+              const rawDate = node.frontmatter.rawDate;
+              const date = new Date(rawDate);
+              return date < new Date();
+            })
+            .map(({ node }) => (
+              <div key={node.id}>
+                <Link
+                  to={node.frontmatter.path}
+                  css={css`
+                      text-decoration: none;
+                      color: inherit;
+                    `}
+                >
+                  <MarkerHeader>{node.frontmatter.title} </MarkerHeader>
+                  <div>
+                    <ArticleDate>{node.frontmatter.date}</ArticleDate>
+                    <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
+                  </div>
+                  <p>{node.excerpt}</p>
+                </Link>
+              </div>
+            ))}
           <hr />
           <h2>Latest Lifestyle Blog Posts</h2>
           {data.lifestyle.edges
@@ -119,31 +124,26 @@ const IndexPage = ({ data }) => {
               </div>
             ))}
           <hr />
-          <h2>Latest Tech Blog Posts</h2>
-          {data.tech.edges
-            .filter(({ node }) => {
-              const rawDate = node.frontmatter.rawDate;
-              const date = new Date(rawDate);
-              return date < new Date();
-            })
-            .map(({ node }) => (
-              <div key={node.id}>
-                <Link
-                  to={node.frontmatter.path}
-                  css={css`
-                      text-decoration: none;
-                      color: inherit;
-                    `}
-                >
-                  <MarkerHeader>{node.frontmatter.title} </MarkerHeader>
-                  <div>
-                    <ArticleDate>{node.frontmatter.date}</ArticleDate>
-                    <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
-                  </div>
-                  <p>{node.excerpt}</p>
-                </Link>
-              </div>
-            ))}
+          <h2>Why this</h2>
+          <p>
+            For a while I’d wake up every morning, go through the same routines
+            and by the end of it, ask myself: “isn’t it supposed to get easier?”
+            Everything got better for me when I made peace with the fact that it
+            will not ever get easier; life is hard.
+          </p>
+          <p>
+            Back to the original question, I developed this place because I needed
+            it.
+          </p>
+          <p>
+            When things are going well or not so well; the question is always the
+            same “how to keep going?” With everything getting more complex, it’s
+            easy to get stuck and feel like we’re not getting anywhere.
+          </p>
+          <p>
+            This place is somewhere to track my milestones and a reminder to
+            myself that I am pushing forward.
+          </p>
           <hr />
           <h2>Disclosure</h2>
           <p>

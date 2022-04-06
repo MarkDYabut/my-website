@@ -7,7 +7,7 @@ category: tech
 path: /tech/thatGirlGotMeFdUp
 ---
 
-## What even is a CI/CD pipeline
+## What even is a CI/CD pipeline?
 
 
 
