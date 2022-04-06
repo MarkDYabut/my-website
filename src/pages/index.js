@@ -47,6 +47,7 @@ const IndexPage = ({ data }) => {
             ideas that attempt improve my internal systems so that I may live a
             happier, healthier and productive life (and maybe inspire the reader).
           </p>
+          <hr />
           <h2>About me</h2>
           <p>
             I work as a
@@ -70,6 +71,7 @@ const IndexPage = ({ data }) => {
               even if it's something that we may feel that 'everybody knows.'"
             </i>
           </p>
+          <hr />
           <h2>Why this</h2>
           <p>
             For a while I’d wake up every morning, go through the same routines
@@ -90,6 +92,7 @@ const IndexPage = ({ data }) => {
             This place is somewhere to track my milestones and a reminder to
             myself that I am pushing forward.
           </p>
+          <hr />
           <h2>Latest Lifestyle Blog Posts</h2>
           {data.lifestyle.edges
             .filter(({ node }) => {
@@ -115,6 +118,7 @@ const IndexPage = ({ data }) => {
                 </Link>
               </div>
             ))}
+          <hr />
           <h2>Latest Tech Blog Posts</h2>
           {data.tech.edges
             .filter(({ node }) => {
@@ -140,6 +144,7 @@ const IndexPage = ({ data }) => {
                 </Link>
               </div>
             ))}
+          <hr />
           <h2>Disclosure</h2>
           <p>
             The ideas i've shared here are both of my own and of my influences.
