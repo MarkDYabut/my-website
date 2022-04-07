@@ -2,7 +2,7 @@
 layout: blog
 title: Notes on the idea of shadow integration
 date: 2022-01-09T03:30:20.662Z
-draft: true
+draft: false
 category: lifestyle
 path: /lifestyle/notes-on-the-idea-of-shadow-integration
 ---
