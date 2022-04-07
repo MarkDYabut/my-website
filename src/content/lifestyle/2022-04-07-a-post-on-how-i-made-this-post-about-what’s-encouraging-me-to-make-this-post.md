@@ -22,12 +22,12 @@ Going to talk more about process here, rather than all that self-help-growth stu
 
 I’ve raved quite a bit about using Notion, but in essence; it is where I store my ideas and it is where I also create these posts (initially). After typing them out i’ll simply insert whatever assets I need; all my drawings are done through another web application called Excalidraw.
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/068ac7dd-7f6e-4ee6-97fa-946fb9cf8647/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220407T035901Z&X-Amz-Expires=86400&X-Amz-Signature=cc95f2e861488a7ea63686f86026899f554cd2a05c9ddf3e6b13dcacc82af5cc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](/img/apostaboutapost1.png)
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/064608a1-46bb-445f-892c-2c38d5c20575/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220407T035928Z&X-Amz-Expires=86400&X-Amz-Signature=2ccd8b06dcbb4921fa027e84adeee99d54a4a11156b20d925357b1ffe42d70cf&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](/img/apostaboutapost2.png)
 
 After I’ve created the assets; I will head over to the CMS of my website and copy and paste it in.
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/18f3dea6-3cac-47b2-a23c-ac3cba644ca3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220407T035943Z&X-Amz-Expires=86400&X-Amz-Signature=cb019aa731305bdd9d5c55e7843b58ffdb19490ba26c8b7bd72feabfe990fc3a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![](/img/apostaboutapost3.png)
 
 And then 'Publlish' which will start my CI/CD pipeline which you can read more about in the tech post I wrote about it.
