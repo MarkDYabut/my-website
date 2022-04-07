@@ -21,7 +21,7 @@ Below I explain at a high level what happens when I need to make any changes to 
 
 
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8f6c7e8-f8d0-4c1f-ab2f-97e4f3a0d7e8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T011028Z&X-Amz-Expires=86400&X-Amz-Signature=6f91474b833bf7165ac780244a282e0596189e2961eb2da3b4b22c6a7e94f444&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c8f6c7e8-f8d0-4c1f-ab2f-97e4f3a0d7e8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220407T040152Z&X-Amz-Expires=86400&X-Amz-Signature=86a3232c4bc483b66369aaf183d274ed1fc828e2a849fa227a0505e7862ca8c3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 
 
@@ -29,7 +29,7 @@ Luckily I was able to abstract out the process of making content changes outside
 
 
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9184d7bc-71ac-4375-b9a4-9641068a2dd3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220406%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220406T011049Z&X-Amz-Expires=86400&X-Amz-Signature=a6deeff5742849ecdb8048d6f5419b1161a1b3d85126be7f425b0b41e512df43&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9184d7bc-71ac-4375-b9a4-9641068a2dd3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220407%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220407T040206Z&X-Amz-Expires=86400&X-Amz-Signature=1b997ac4dddd93e86d13fa64ffcfa7e01e2927521711733a097e3cd1c337a8ec&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 
 
