@@ -10,11 +10,11 @@ For this one i’m going to go backwards and first address the idea of **what’
 
 ## What’s encouraging me to make this post
 
-There’s been a lot of encouragement over the last few years (since I made this place), but as usual with most habits we all try to build; they do not last. That is *okay* though. I look back at my older posts and i’m glad that I atleast tried; the fact that i’m trying again is the most important part for me. There really is beauty in the struggle; I think the key to success is getting useto being on our asses, and constantly *trying again*.
+There’s been a lot of encouragement over the last few years (since I made this place), but as usual with most habits we all try to build; they do not last. That is *okay* though. I look back at my older posts and i’m glad that I at least tried; the fact that i’m trying again is the most important part for me. There really is beauty in the struggle; I think the key to success is getting use to being on our asses, and constantly *trying again*.
 
 > Life is about living and not conceptualizing
 
-Going to steal this quote that’s been stuck in my head. I’d argue it does not even embody my message but I will force it into relevancy, in hopes it gets out of my head and I will just live it out. When I think about life, I think about what is important and if I find this place important along with what I post here. Instead of just conceptualizing what I should or should-not post on here, i’m just going to not think too far ahead and just do it.
+Going to steal this quote that’s been stuck in my head. Though i’d argue it does not even embody my message but I will force it into relevancy with the hope it gets out of my head. When I think about life, I think about what is important. So if this place is important to me, instead of just conceptualizing what I should or should-not post on here, i’m just going to not think too far ahead and just do it.
 
 ## How I made this post
 
