@@ -26,4 +26,4 @@ Traditionally quality assurance analysts had the responsibility of manually test
 
 The industries answer to the unsustainability; was automated testing. The only issue was, in order to automate testing; testing scripts needed to be developed and these scripts are developed with code. So now there was a problem, industries needed quality assurance analysts who had no experience developing code; to now needing to be able to code. 
 
-So, as a result; what was born was a new role: the software engineer in test, also known as a quality engineer or software development engineer. Who has the responsibility to develop software that is used to test other software.
+So, as a result; what was born was a new role: the software engineer in test (SET), also known as a quality engineer (QE) or software development engineer in test (SDET). Who has the responsibility to develop software that is used to test other software.
