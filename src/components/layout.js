@@ -44,7 +44,7 @@ const Layout = ({ children }) => (
     `}
     render={(data) => (
       <>
-      <p></p>
+        <p></p>
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
           <hr />
@@ -78,7 +78,7 @@ const Layout = ({ children }) => (
           </BottomLinks>
 
           <Footer>
-            Built by <NavLink to="/tech/tech-post-2">Mark Yabut</NavLink>
+             <NavLink to="/tech/this-website-was-built-with-gatsby">Built </NavLink> by <NavLink to="/me">me</NavLink>
           </Footer>
         </Content>
       </>

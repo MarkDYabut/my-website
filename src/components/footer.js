@@ -55,7 +55,7 @@ const Layout = ({ children }) => (
       </BottomLinks>
 
       <Footer>
-        Built by <NavLink to="/tech/tech-post-2">Mark Yabut</NavLink>
+        Built with <NavLink to="/tech/this-website-was-built-with-gatsby">gatsbyjs</NavLink> by <NavLink to="/me">me</NavLink>
       </Footer>
     </Content>
   </>
