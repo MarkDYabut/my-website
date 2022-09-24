@@ -4,7 +4,7 @@ title: A post on how I made this post about what’s encouraging me to make this
 date: 2022-04-07T03:57:10.634Z
 draft: false
 category: lifestyle
-path: /lifestyle/stopBeingABitchAndJustDoIt
+path: /lifestyle/APostPostPost
 ---
 For this one i’m going to go backwards and first address the idea of **what’s encouraging me to make this post** and then talk about **how I made this post.**
 
