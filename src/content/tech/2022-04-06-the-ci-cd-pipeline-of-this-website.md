@@ -4,7 +4,7 @@ title: The CI/CD pipeline of this website
 date: 2022-04-06T00:43:52.531Z
 draft: false
 category: tech
-path: /tech/thatGirlGotMeFdUp
+path: /tech/CICDPIPE
 ---
 ## What even is a CI/CD pipeline?
 
