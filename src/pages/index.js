@@ -5,7 +5,7 @@ import SEO from "../components/seo";
 import { Link } from "gatsby";
 import { css } from "@emotion/core";
 
-const ArticleDate = styled.h5`
+const ArticleDate = styled.h4`
   display: inline;
   color: #606060;
 `;
@@ -15,7 +15,7 @@ const MarkerHeader = styled.h3`
   border-radius: 1em 0 1em 0;
 `;
 
-const ReadingTime = styled.h5`
+const ReadingTime = styled.h4`
   display: inline;
   color: #606060;
 `;
@@ -62,7 +62,7 @@ const IndexPage = ({ data }) => {
             >
               electrical engineering
             </a>
-            {" "} that currently has a solid 0-20% relevancy to what I do. I also spend time writing about what i've learned while working in
+            {" "} that currently has a solid 0-20% (closer to 0%) relevancy to what I do. I also spend time writing about what i've learned while working in
             tech as I believe that:
           </p>
           <p>
