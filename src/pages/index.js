@@ -62,7 +62,7 @@ const IndexPage = ({ data }) => {
             >
               electrical engineering
             </a>
-            {" "} that currently has a solid 0-20% (closer to 0%) relevancy to what I do. I also spend time writing about what i've learned while working in
+            {""}. I also spend time writing about what i've learned while working in
             tech as I believe that:
           </p>
           <p>
