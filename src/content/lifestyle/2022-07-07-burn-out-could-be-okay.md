@@ -4,7 +4,7 @@ title: Burn out could be okay
 date: 2022-07-07T22:53:27.805Z
 draft: false
 category: lifestyle
-path: /lifestyle/ButOutIsProbablyNotOkayLOL
+path: /lifestyle/burn-out-could-be-okay-but-its-probably-not-lol
 ---
 ## Burn out
 I've keep on hearing the advice to "not burn out," but what if there are scenarios where it is okay to burn out?

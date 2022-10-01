@@ -4,7 +4,7 @@ title: Making this website show my latest blog posts on the home page
 date: 2022-04-05T03:25:56.441Z
 draft: false
 category: tech
-path: /tech/iReadABioTellingMeToStopConceptualizingAndInsteadJustDoIt
+path: /tech/making-this-website-show-my-latest-blog-posts-on-the-home-page
 ---
 In this post I will try and explain as thoroughly as possible what exactly went through my head and on the computer as I implemented showing my latest blog posts on the home page of this website.
 
