@@ -35,7 +35,7 @@ const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
     {
-      gitInfo: allFile(limit: 1, sort: {fields: modifiedTime, order: DESC}) {
+      gitInfo: allFile(limit: 1, sort: {order: DESC, fields: modifiedTime}) {
         edges {
           node {
             fields {
@@ -49,15 +49,14 @@ const Layout = ({ children }) => (
               description
               owner
             }
+            accessTime(formatString: "z MMM DD YYYY, HH:mm", locale: "est")
           }
         }
       }
-      site {
-        siteMetadata {
-          title
-        }
-      }
     }
+    
+
+    
     `}
     render={(data) => (
       <>
@@ -94,24 +93,23 @@ const Layout = ({ children }) => (
 
           </BottomLinks>
 
-            <hr />
+          <hr />
 
           {data.gitInfo.edges.map(({ node }) => (
             <>
-              <Footer>Modified on: {node.fields.gitLogLatestDate}</Footer>
+              <Footer>Modified on: {node.accessTime}</Footer>
               <Footer>Modified by: {node.fields.gitLogLatestAuthorName}</Footer>
               <Footer>
-                Latest changes:
-                <RegLink
+                <a
                   href="https://github.com/MarkDYabut/my-website/commits/master"
                   target="_blank"
                 >
-                  github commit history
-                </RegLink>
+                Github commit history
+                </a>
               </Footer>
             </>
           ))}
-
+          <br />
           <hr />
 
           <Footer>
