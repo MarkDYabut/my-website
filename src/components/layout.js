@@ -31,7 +31,7 @@ const BottomLinks = styled.div`
   justify-content: center;
 `;
 
-const Layout = ({ children }) => (
+const Layout = ({ children, hideHeader }) => (
   <StaticQuery
     query={graphql`
     {
@@ -61,9 +61,14 @@ const Layout = ({ children }) => (
     render={(data) => (
       <>
         <p></p>
-        <Header />
+        {
+          !hideHeader && 
+          <>
+            <Header />
+            <hr />
+          </>
+        }
         <Content>
-          <hr />
           <main>{children}</main>
           <hr />
 

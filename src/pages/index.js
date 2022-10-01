@@ -34,7 +34,7 @@ const IndexPage = ({ data }) => {
   return (
     <>
       <SEO title="Home" keywords={[`Mark Yabut`, `about`, `index`]} />
-      <Layout>
+      <Layout hideHeader={true}>
         <Content>
           <h1>Mark Dyllan Yabut</h1>
           <p>
