@@ -34,18 +34,35 @@ const BottomLinks = styled.div`
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
+    {
+      gitInfo: allFile(limit: 1, sort: {fields: modifiedTime, order: DESC}) {
+        edges {
+          node {
+            fields {
+              gitLogLatestAuthorName
+              gitLogLatestAuthorEmail
+              gitLogLatestDate
+            }
+            internal {
+              type
+              mediaType
+              description
+              owner
+            }
           }
         }
       }
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
     `}
     render={(data) => (
       <>
         <p></p>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header />
         <Content>
           <hr />
           <main>{children}</main>
@@ -77,8 +94,30 @@ const Layout = ({ children }) => (
 
           </BottomLinks>
 
+            <hr />
+
+          {data.gitInfo.edges.map(({ node }) => (
+            <>
+              <Footer>Modified on: {node.fields.gitLogLatestDate}</Footer>
+              <Footer>Modified by: {node.fields.gitLogLatestAuthorName}</Footer>
+              <Footer>
+                Latest changes:
+                <RegLink
+                  href="https://github.com/MarkDYabut/my-website/commits/master"
+                  target="_blank"
+                >
+                  github commit history
+                </RegLink>
+              </Footer>
+            </>
+          ))}
+
+          <hr />
+
           <Footer>
-             <NavLink to="/tech/this-website-was-built-with-gatsby">Built </NavLink> by <NavLink to="/me">me</NavLink>
+            <p>
+              Built with <NavLink to="/tech/this-website-was-built-with-gatsby">Gatsby</NavLink>
+            </p>
           </Footer>
         </Content>
       </>
