@@ -103,7 +103,7 @@ const Layout = ({ children, hideHeader }) => (
           {data.gitInfo.edges.map(({ node }) => (
             <>
               <Footer>Modified on: {node.accessTime}</Footer>
-              <Footer>Modified by: {node.fields.gitLogLatestAuthorName}</Footer>
+              <Footer>Last modified by: {node.fields.gitLogLatestAuthorName}</Footer>
               <Footer>
                 <a
                   href="https://github.com/MarkDYabut/my-website/commits/master"
