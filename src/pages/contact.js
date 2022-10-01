@@ -134,7 +134,7 @@ const IndexPage = () => {
 
   return (
     <AnotherWrapper>
-      <Layout>
+      <Layout hideHeader={true}>
         <Wrapper>
           <StyledFormWrapper>
           <StyledForm

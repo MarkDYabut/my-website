@@ -12,7 +12,7 @@ const Content = styled.div`
 
 const IndexPage = () => (
   <>
-    <Layout>
+    <Layout hideHeader={true}>
       <Content>
         <h1>About</h1>
         <p>
