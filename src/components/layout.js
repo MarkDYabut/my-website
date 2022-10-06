@@ -5,6 +5,8 @@ import styled from "@emotion/styled";
 import Header from "./header";
 import "./layout.css";
 import { Link } from "gatsby";
+import GitInfo from 'react-git-info/macro';
+
 
 const Content = styled.div`
   margin: 0 auto;
@@ -24,12 +26,20 @@ const RegLink = styled.a`
 const Footer = styled.div`
   display: flex;
   justify-content: center;
+  text-align: center;
 `;
 
 const BottomLinks = styled.div`
   display: flex;
   justify-content: center;
 `;
+
+const gitInfo = GitInfo();
+console.log(gitInfo.branch);
+console.log(gitInfo.commit.date);
+console.log(gitInfo.commit.hash);
+console.log(gitInfo.commit.message);
+console.log(gitInfo.commit.shortHash);
 
 const Layout = ({ children, hideHeader }) => (
   <StaticQuery
@@ -102,8 +112,9 @@ const Layout = ({ children, hideHeader }) => (
 
           {data.gitInfo.edges.map(({ node }) => (
             <>
-              <Footer>Modified on: {node.accessTime}</Footer>
-              <Footer>Last modified by: {node.fields.gitLogLatestAuthorName}</Footer>
+              <Footer>Modified on: {gitInfo.commit.date}</Footer>
+              <Footer>Last commit by: {node.fields.gitLogLatestAuthorName}</Footer>
+              <Footer>Last commit: {gitInfo.commit.message}</Footer>
               <Footer>
                 <a
                   href="https://github.com/MarkDYabut/my-website/commits/master"
@@ -119,7 +130,7 @@ const Layout = ({ children, hideHeader }) => (
 
           <Footer>
             <p>
-              Built with <NavLink to="/tech/this-website-was-built-with-gatsby">Gatsby</NavLink>
+              Built with<NavLink to="/tech/this-website-was-built-with-gatsby">Gatsby</NavLink>
             </p>
           </Footer>
         </Content>
