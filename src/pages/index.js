@@ -129,24 +129,29 @@ const IndexPage = ({ data }) => {
             ))}
           <hr />
           <h2>Why this</h2>
+          <s>
+            <p>
+              For a while I'd wake up every morning, go through the same routines
+              and by the end of it, ask myself: “isn't it supposed to get easier?”
+              Everything got better for me when I made peace with the fact that it
+              will not ever get easier; life is hard.
+            </p>
+            <p>
+              Back to the original question, I developed this place because I needed
+              it.
+            </p>
+            <p>
+              When things are going well or not so well; the question is always the
+              same “how to keep going?” With everything getting more complex, it's
+              easy to get stuck and feel like we're not getting anywhere.
+            </p>
+            <p>
+              This place is somewhere to track my milestones and a reminder to
+              myself that I am pushing forward.
+            </p>
+          </s>
           <p>
-            For a while I'd wake up every morning, go through the same routines
-            and by the end of it, ask myself: “isn't it supposed to get easier?”
-            Everything got better for me when I made peace with the fact that it
-            will not ever get easier; life is hard.
-          </p>
-          <p>
-            Back to the original question, I developed this place because I needed
-            it.
-          </p>
-          <p>
-            When things are going well or not so well; the question is always the
-            same “how to keep going?” With everything getting more complex, it's
-            easy to get stuck and feel like we're not getting anywhere.
-          </p>
-          <p>
-            This place is somewhere to track my milestones and a reminder to
-            myself that I am pushing forward.
+            My 2022 self looking at the 2020 self that wrote this: 🤦‍♂️
           </p>
           <hr />
           <h2>Disclosure</h2>
