@@ -92,12 +92,11 @@ const Layout = ({ children, hideHeader }) => (
             >
               Linkedin
             </RegLink>
-            <RegLink
-              href="https://github.com/MarkDYabut/my-website"
-              target="_blank"
+            <NavLink
+              to="/poc"
             >
-              Source Code
-            </RegLink>
+              Experimental
+            </NavLink>
             <RegLink
               href="https://www.instagram.com/markyabut3/"
               target="_blank"

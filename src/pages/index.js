@@ -43,9 +43,12 @@ const IndexPage = ({ data }) => {
             </i>
           </p>
           <p>
-            This site aims to share my journey as I explore strategies, tools and
-            ideas that attempt improve my internal systems so that I may live a
-            happier, healthier and productive life (and maybe inspire the reader).
+            <s>
+              This site aims to share my journey as I explore strategies, tools and
+              ideas that attempt improve my internal systems so that I may live a
+              happier, healthier and productive life (and maybe inspire the reader).
+            </s> - Too serious; I'm just trying to {" "}
+            <a href="https://www.urbandictionary.com/define.php?term=get%20good" target="_blank">get good.</a>
           </p>
           <hr />
           <h2>About me</h2>
@@ -54,7 +57,7 @@ const IndexPage = ({ data }) => {
             <NavLink to="/tech/what-is-a-software-test-engineer">
               software test engineer,
             </NavLink>
-            where I work on improving testing processes through code. I have
+            where I build applications that test other applications that I may have also built. I have
             an education in{" "}
             <a
               href="https://www.ryerson.ca/programs/undergraduate/electrical-engineering/"
@@ -62,13 +65,14 @@ const IndexPage = ({ data }) => {
             >
               electrical engineering
             </a>
+            {" "}that I don't really use, but I keep the spirit alive through my hobbies
             {""}. I also spend time writing about what i've learned while working in
             tech as I believe that:
           </p>
           <p>
             <i>
               "The formula for success and happiness is sharing what we learn,
-              even if it's something that we may feel that 'everybody knows.'" - I totally stole this quote from someone and I forgot who
+              even if it's something that we may feel that 'everybody knows.'" - I totally stole this quote from someone and I forgot who.
             </i>
           </p>
           <hr />
@@ -126,8 +130,8 @@ const IndexPage = ({ data }) => {
           <hr />
           <h2>Why this</h2>
           <p>
-            For a while I’d wake up every morning, go through the same routines
-            and by the end of it, ask myself: “isn’t it supposed to get easier?”
+            For a while I'd wake up every morning, go through the same routines
+            and by the end of it, ask myself: “isn't it supposed to get easier?”
             Everything got better for me when I made peace with the fact that it
             will not ever get easier; life is hard.
           </p>
@@ -137,8 +141,8 @@ const IndexPage = ({ data }) => {
           </p>
           <p>
             When things are going well or not so well; the question is always the
-            same “how to keep going?” With everything getting more complex, it’s
-            easy to get stuck and feel like we’re not getting anywhere.
+            same “how to keep going?” With everything getting more complex, it's
+            easy to get stuck and feel like we're not getting anywhere.
           </p>
           <p>
             This place is somewhere to track my milestones and a reminder to
