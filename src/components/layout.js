@@ -45,7 +45,7 @@ const Layout = ({ children, hideHeader }) => (
   <StaticQuery
     query={graphql`
     {
-      gitInfo: allFile(limit: 1, sort: {order: DESC, fields: modifiedTime}) {
+      graphqlGitInfo: allFile(limit: 1, sort: {order: DESC, fields: modifiedTime}) {
         edges {
           node {
             fields {
@@ -110,7 +110,7 @@ const Layout = ({ children, hideHeader }) => (
 
           <hr />
 
-          {data.gitInfo.edges.map(({ node }) => (
+          {data.graphqlGitInfo.edges.map(({ node }) => (
             <>
               <Footer>Modified on: {gitInfo.commit.date}</Footer>
               <Footer>Last commit by: {node.fields.gitLogLatestAuthorName}</Footer>
