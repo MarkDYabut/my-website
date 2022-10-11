@@ -4,7 +4,7 @@ title: Web Automation Application Framework
 date: 2022-10-11T17:05:44.203Z
 draft: false
 category: project
-path: /project/
+path: /project/web-automation-application-framework
 ---
 ## Infrastructure
 
