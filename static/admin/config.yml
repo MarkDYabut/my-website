@@ -48,3 +48,21 @@ collections:
         }
       - { label: "Path", name: "path", widget: "string", default: "/tech/" }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "project-tech"
+    label: "Blog Project"
+    folder: "src/content/project"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - {
+          label: "Category",
+          name: "category",
+          widget: "select",
+          options: ["project"],
+        }
+      - { label: "Path", name: "path", widget: "string", default: "/project/" }
+      - { label: "Body", name: "body", widget: "markdown" }
