@@ -106,6 +106,20 @@ const Poc = () => {
       <Layout>
         <Content>
           <h1>Proofs of concepts aka. POC</h1>
+          <h2>Below are little processes that are either experimental or live.</h2>
+          <p>These are processes that I feel are too small to create into it's own blog post, as I am
+            getting more matured these processes are happening much more often and I don't want the process
+            of creating so many blog posts to slow me down. If you'd like a more in depth analysis into a process
+            you can try sending me a message  <Link to="/contact">here</Link>.
+          </p>
+          <DivSpaced>
+            <h3>Implementing a new blog category</h3>
+            <p>Since the implementation was already done for my other blog categories; the implementation
+              was rather simple to do as I already had the required code; I just needed to copy, paste, and refactor.
+              Check the link below for the feature branch and look for the latest commits in it for the code changes.
+            </p>
+            <ButtonStyled onClick={() => openInNewTab('https://github.com/MarkDYabut/my-website/commits/feature-add-project-blog-category')}>Feature Branch</ButtonStyled>
+          </DivSpaced>
           <DivSpaced>
             <h3>Implementing a sexy ass button</h3>
             <p>I simply copied and refactored into an emotion/react component. Check the link for other buttons.</p>
