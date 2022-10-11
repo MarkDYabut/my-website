@@ -76,6 +76,32 @@ const IndexPage = ({ data }) => {
             </i>
           </p>
           <hr />
+          <h2>Latest Project Blog Posts</h2>
+          {data.project.edges
+            .filter(({ node }) => {
+              const rawDate = node.frontmatter.rawDate;
+              const date = new Date(rawDate);
+              return date < new Date();
+            })
+            .map(({ node }) => (
+              <div key={node.id}>
+                <Link
+                  to={node.frontmatter.path}
+                  css={css`
+                      text-decoration: none;
+                      color: inherit;
+                    `}
+                >
+                  <MarkerHeader>{node.frontmatter.title} </MarkerHeader>
+                  <div>
+                    <ArticleDate>{node.frontmatter.date}</ArticleDate>
+                    <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
+                  </div>
+                  <p>{node.excerpt}</p>
+                </Link>
+              </div>
+            ))}
+          <hr />
           <h2>Latest Tech Blog Posts</h2>
           {data.tech.edges
             .filter(({ node }) => {
@@ -208,6 +234,60 @@ export const query = graphql`
     sort: { fields: [frontmatter___date], order: DESC }
     filter: {
       frontmatter: { category: { eq: "tech" }, draft: { eq: false } }
+    }
+  ) {
+    totalCount
+    edges {
+      node {
+        id
+        frontmatter {
+          title
+          date(formatString: "DD MMMM, YYYY")
+          rawDate: date
+          path
+        }
+        fields {
+          slug
+          readingTime {
+            text
+          }
+        }
+        excerpt
+      }
+    }
+  }
+  tech: allMarkdownRemark(
+    limit: 3
+    sort: { fields: [frontmatter___date], order: DESC }
+    filter: {
+      frontmatter: { category: { eq: "tech" }, draft: { eq: false } }
+    }
+  ) {
+    totalCount
+    edges {
+      node {
+        id
+        frontmatter {
+          title
+          date(formatString: "DD MMMM, YYYY")
+          rawDate: date
+          path
+        }
+        fields {
+          slug
+          readingTime {
+            text
+          }
+        }
+        excerpt
+      }
+    }
+  }
+  project: allMarkdownRemark(
+    limit: 3
+    sort: { fields: [frontmatter___date], order: DESC }
+    filter: {
+      frontmatter: { category: { eq: "project" }, draft: { eq: false } }
     }
   ) {
     totalCount
