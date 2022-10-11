@@ -38,6 +38,10 @@ const MarkdownContent = styled.div`
       background-size: 100% 88%;
     }
   }
+
+  img {
+    border-radius: 20px;
+  }
 `
 
 export default ({ data }) => {
