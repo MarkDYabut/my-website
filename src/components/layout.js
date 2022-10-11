@@ -112,7 +112,7 @@ const Layout = ({ children, hideHeader }) => (
           {data.graphqlGitInfo.edges.map(({ node }) => (
             <>
               <Footer>Modified on: {gitInfo.commit.date}</Footer>
-              <Footer>Last commit by: {node.fields.gitLogLatestAuthorName}</Footer>
+              {/* <Footer>Last commit by: {node.fields.gitLogLatestAuthorName}</Footer> */}
               <Footer>Last commit: {gitInfo.commit.message}</Footer>
               <Footer>
                 <a
