@@ -47,8 +47,10 @@ const IndexPage = ({ data }) => {
               This site aims to share my journey as I explore strategies, tools and
               ideas that attempt improve my internal systems so that I may live a
               happier, healthier and productive life (and maybe inspire the reader).
-            </s> - Too serious; I'm just trying to {" "}
-            <a href="https://www.urbandictionary.com/define.php?term=get%20good" target="_blank">get good.</a>
+            </s>
+          </p>
+          <p>
+            This site is me talking to myself.
           </p>
           <hr />
           <h2>About me</h2>
@@ -72,7 +74,7 @@ const IndexPage = ({ data }) => {
           <p>
             <i>
               "The formula for success and happiness is sharing what we learn,
-              even if it's something that we may feel that 'everybody knows.'" - I totally stole this quote from someone and I forgot who.
+              even if it's something that we may feel that 'everybody knows.'"
             </i>
           </p>
           <hr />
@@ -203,7 +205,7 @@ export const query = graphql`
     }
   }
   lifestyle: allMarkdownRemark(
-    limit: 3
+    limit: 2
     sort: { fields: [frontmatter___date], order: DESC }
     filter: {
       frontmatter: { category: { eq: "lifestyle" }, draft: { eq: false } }
@@ -230,34 +232,7 @@ export const query = graphql`
     }
   }
  tech: allMarkdownRemark(
-    limit: 3
-    sort: { fields: [frontmatter___date], order: DESC }
-    filter: {
-      frontmatter: { category: { eq: "tech" }, draft: { eq: false } }
-    }
-  ) {
-    totalCount
-    edges {
-      node {
-        id
-        frontmatter {
-          title
-          date(formatString: "DD MMMM, YYYY")
-          rawDate: date
-          path
-        }
-        fields {
-          slug
-          readingTime {
-            text
-          }
-        }
-        excerpt
-      }
-    }
-  }
-  tech: allMarkdownRemark(
-    limit: 3
+    limit: 2
     sort: { fields: [frontmatter___date], order: DESC }
     filter: {
       frontmatter: { category: { eq: "tech" }, draft: { eq: false } }
@@ -284,7 +259,7 @@ export const query = graphql`
     }
   }
   project: allMarkdownRemark(
-    limit: 3
+    limit: 2
     sort: { fields: [frontmatter___date], order: DESC }
     filter: {
       frontmatter: { category: { eq: "project" }, draft: { eq: false } }
