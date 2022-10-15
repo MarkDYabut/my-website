@@ -103,6 +103,7 @@ const Poc = () => {
 
   return (
     <>
+      <SEO title="Proofs of Concepts" keywords={[`proofs`, `poc`]} />
       <Layout>
         <Content>
           <h1>Proofs of concepts aka. POC</h1>
@@ -135,7 +136,7 @@ const Poc = () => {
           <DivSpaced>
             <h3>Implementing iframes to get my other projects into here</h3>
             <p>
-              Below is some timers I made inside a gatsby starter app. Not sure why my last commit was so vulgar hahaha.
+              Below is some timers I made inside a gatsby starter app.
               This application is actually hosted on a different domain but i'm able to embedd them into this application
               through the use of iframes.
             </p>

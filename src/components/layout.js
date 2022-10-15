@@ -95,7 +95,7 @@ const Layout = ({ children, hideHeader }) => (
             <NavLink
               to="/poc"
             >
-              Experimental
+              Proofs
             </NavLink>
             <RegLink
               href="https://www.instagram.com/markyabut3/"
