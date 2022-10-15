@@ -25,15 +25,15 @@ const DivSpaced = styled.div`
 `
 
 const glow = keyframes`
-0% {
-  background-position: 0 0;
-}
-50% {
-  background-position: 400% 0;
-}
-100% {
-  background-position: 0 0;
-}
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 `
 
 const ButtonStyled = styled.button`
@@ -113,6 +113,16 @@ const Poc = () => {
             of creating so many blog posts to slow me down. If you'd like a more in depth analysis into a process
             you can try sending me a message  <Link to="/contact">here</Link>.
           </p>
+          <DivSpaced>
+            <h3>Implementing a dark theme</h3>
+            <p>Made huge progress in regards to my understanding of styled components, react and how
+              the two together can make a nice theme toggle component. Below you can see how I applied
+              a theme toggle to my pomodoro application.
+            </p>
+            <ButtonStyled onClick={() => openInNewTab(
+              'https://github.com/MarkDYabut/pomodoro/commit/b4fca09f2b89b979478624f45d04725d994fb9ea#diff-9deca907c356329fdc2670b779733a6496f356262308d92ac942e832f3eda164')}>
+                Feature Commit</ButtonStyled>
+          </DivSpaced>
           <DivSpaced>
             <h3>Implementing a new blog category</h3>
             <p>Since the implementation was already done for my other blog categories; the implementation

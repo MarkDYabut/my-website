@@ -13,6 +13,7 @@ const ArticleDate = styled.h4`
 const MarkerHeader = styled.h3`
   display: inline;
   border-radius: 1em 0 1em 0;
+  text-decoration: underline;
 `;
 
 const ReadingTime = styled.h4`
