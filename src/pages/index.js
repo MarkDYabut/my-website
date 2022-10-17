@@ -14,6 +14,18 @@ const Frame = styled.iframe`
   border-style: none;
   width: 100%;
   height 500px;
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;border-radius: 12px;
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+  -moz-transform:rotate(2deg);
+  -webkit-transform:rotate(-3deg);
+  -o-transform:rotate(2deg);
+  -ms-transform:rotate(2deg);
+  
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.1);
 `
 
 const MarkerHeader = styled.h3`
