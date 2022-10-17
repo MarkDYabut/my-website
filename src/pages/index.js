@@ -10,6 +10,12 @@ const ArticleDate = styled.h4`
   color: #606060;
 `;
 
+const Frame = styled.iframe`
+  border-style: none;
+  width: 100%;
+  height 500px;
+`
+
 const MarkerHeader = styled.h3`
   display: inline;
   border-radius: 1em 0 1em 0;
@@ -66,10 +72,19 @@ const IndexPage = ({ data }) => {
               href="https://www.ryerson.ca/programs/undergraduate/electrical-engineering/"
               target="_blank"
             >
-              electrical engineering
+              electrical computer engineering
             </a>
-            {" "}that I don't really use, but I keep the spirit alive through my hobbies
-            {""}. I also spend time writing about what i've learned while working in
+            {" "}that I don't really use, but I keep the spirit alive through my hobbies. 
+          </p>
+          <p>
+            Below is a cool little timer application I built and am slowly iterating on. It is 
+            built with the same <Link to="tech/this-website-was-built-with-gatsby">technology</Link> of this website, configured as a {" "}
+            <Link to="tech/progressive-web-applications">progressive web application</Link> and inserted
+            into this application as an iframe.
+          </p>
+          <Frame src="https://my-pomodoro.netlify.app/app2"></Frame>
+          <p>
+            I also spend time writing about what i've learned while working in
             tech as I believe that:
           </p>
           <p>
@@ -78,6 +93,7 @@ const IndexPage = ({ data }) => {
               even if it's something that we may feel that 'everybody knows.'"
             </i>
           </p>
+          <p>Below you'll find a collection of thoughts on Lifestyle, Tech and Project.</p>
           <hr />
           <h2>Latest Project Blog Posts</h2>
           {data.project.edges
