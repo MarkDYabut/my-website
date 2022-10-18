@@ -98,7 +98,7 @@ const IndexPage = ({ data }) => {
             <Link to="tech/this-website-was-built-with-gatsby">technology</Link> {" "}
             of this website, configured as a {" "}
             <Link to="tech/progressive-web-applications">progressive web application</Link> 
-            {" "} and inserted into this application as an iframe.
+            {" "}, contains 2 apps and inserted into this application as an iframe.
           </p>
           <Frame src="https://my-pomodoro.netlify.app/app2"></Frame>
           <p>
