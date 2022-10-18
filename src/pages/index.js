@@ -89,6 +89,9 @@ const IndexPage = ({ data }) => {
             {" "}that I don't really use, but I keep the spirit alive through my hobbies. 
           </p>
           <p>
+            I like making things.
+          </p>
+          <p>
             Below is a cool little timer application I initially built in F2020, 
             but have recently been iterating on it as my frontend has 
             begun lagging behind my backend skillset. It is built with the same {" "}
