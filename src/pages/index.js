@@ -89,10 +89,13 @@ const IndexPage = ({ data }) => {
             {" "}that I don't really use, but I keep the spirit alive through my hobbies. 
           </p>
           <p>
-            Below is a cool little timer application I built and am slowly iterating on. It is 
-            built with the same <Link to="tech/this-website-was-built-with-gatsby">technology</Link> of this website, configured as a {" "}
-            <Link to="tech/progressive-web-applications">progressive web application</Link> and inserted
-            into this application as an iframe.
+            Below is a cool little timer application I initially built in F2020, 
+            but have recently been iterating on it as my frontend has 
+            begun lagging behind my backend skillset. It is built with the same 
+            <Link to="tech/this-website-was-built-with-gatsby">technology</Link> 
+            of this website, configured as a {" "}
+            <Link to="tech/progressive-web-applications">progressive web application</Link> 
+            and inserted into this application as an iframe.
           </p>
           <Frame src="https://my-pomodoro.netlify.app/app2"></Frame>
           <p>
