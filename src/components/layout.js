@@ -90,18 +90,18 @@ const Layout = ({ children, hideHeader }) => (
               href="https://www.linkedin.com/in/mark-yabut-218018152/"
               target="_blank"
             >
-              Linkedin
+              linkedin
             </RegLink>
             <NavLink
               to="/poc"
             >
-              Proofs
+              proofs
             </NavLink>
             <RegLink
               href="https://www.instagram.com/markyabut3/"
               target="_blank"
             >
-              Instagram
+              instagram
             </RegLink>
             {/* <NavLink to="/youtube">Youtube</NavLink> */}
 
@@ -111,15 +111,15 @@ const Layout = ({ children, hideHeader }) => (
 
           {data.graphqlGitInfo.edges.map(({ node }) => (
             <>
-              <Footer>Modified on: {gitInfo.commit.date}</Footer>
+              <Footer>modified on: {gitInfo.commit.date}</Footer>
               {/* <Footer>Last commit by: {node.fields.gitLogLatestAuthorName}</Footer> */}
-              <Footer>Last commit: {gitInfo.commit.message}</Footer>
+              <Footer>last commit: {gitInfo.commit.message}</Footer>
               <Footer>
                 <a
                   href="https://github.com/MarkDYabut/my-website/commits/master"
                   target="_blank"
                 >
-                Github commit history
+                github commit history
                 </a>
               </Footer>
             </>
@@ -129,7 +129,7 @@ const Layout = ({ children, hideHeader }) => (
 
           <Footer>
             <p>
-              Built with<NavLink to="/tech/this-website-was-built-with-gatsby">Gatsby</NavLink>
+              built with<NavLink to="/tech/this-website-was-built-with-gatsby">gatsby</NavLink>
             </p>
           </Footer>
         </Content>

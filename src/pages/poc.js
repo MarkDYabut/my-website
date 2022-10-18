@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Link } from "gatsby";
 import { keyframes } from "@emotion/core";
+import Theme from "../components/theme";
 
 const Content = styled.div`
   margin: 0 auto;
@@ -105,6 +106,7 @@ const Poc = () => {
     <>
       <SEO title="Proofs of Concepts" keywords={[`proofs`, `poc`]} />
       <Layout>
+      <Theme button={1}>
         <Content>
           <h1>Proofs of concepts aka. POC</h1>
           <h2>Below are little processes that are either experimental or live.</h2>
@@ -115,6 +117,9 @@ const Poc = () => {
           </p>
           <DivSpaced>
             <h3>Implementing a dark theme</h3>
+            <Theme button={2}>
+              <p>stuff in here is the children to the theme component</p>
+            </Theme>
             <p>Made huge progress in regards to my understanding of styled components, react and how
               the two together can make a nice theme toggle component. Below you can see how I applied
               a theme toggle to my pomodoro application.
@@ -157,6 +162,7 @@ const Poc = () => {
             <Frame src="https://my-pomodoro.netlify.app/app2"></Frame>
           </DivSpaced>
         </Content>
+      </Theme>
       </Layout>
     </>
   )
