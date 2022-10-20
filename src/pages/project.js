@@ -27,6 +27,46 @@ const ReadingTime = styled.h5`
   color: #606060;
 `;
 
+const Frame = styled.iframe`
+  border-style: none;
+  width: 100%;
+  height 500px;
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;border-radius: 12px;
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+  -moz-transform:rotate(2deg);
+  // -webkit-transform:rotate(-3deg);
+  -o-transform:rotate(2deg);
+  -ms-transform:rotate(2deg);
+  
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.1);
+`
+
+const Frame2 = styled.iframe`
+  border-style: none;
+  width: 100%;
+  height: 100%;
+
+  @media(min-width: 500px) {
+    height: 375px;
+  }
+
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;border-radius: 12px;
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+  // -moz-transform:rotate(2deg);
+  // -webkit-transform:rotate(3deg);
+  // -o-transform:rotate(2deg);
+  // -ms-transform:rotate(2deg);
+  
+  // filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-.1);
+`
+
 const IndexPage = ({ data }) => {
   return (
     <>
@@ -35,8 +75,25 @@ const IndexPage = ({ data }) => {
         <Content>
           <h1>Project</h1>
           <p>
-            A collection of personal projects that I am involved in.
+            A collection of personal projects that I am involved in that I have had a chance to document.
           </p>
+
+          <p>
+            Below is a react three fiber project that I refactored into a gatsby application. Just now got
+            into the three.js space and been having a lot of fun, it will definitely keep me occupied for the rest of 2022.
+            Note: you can manipulate the render with mouse/click/finger actions.
+          </p>
+          <p><i>***Disclosure: it is going to be a 40-50mb render so I suggest not refreshing the page (hence the long load). - I will try and prioritize 
+            adding a proper disclosure that asks for user input before rendering.</i></p>
+          <Frame2 src="https://hilarious-croissant-c19f8a.netlify.app/r3f-2"></Frame2>
+          <p>
+            Below is a cool little timer application I initially built in F2020. It is built with the same {" "}
+            <Link to="tech/this-website-was-built-with-gatsby">technologies</Link> {" "}
+            as this website, configured as a {" "}
+            <Link to="tech/progressive-web-applications">progressive web application</Link> 
+            {""}, contains 2 apps and has been inserted into this application as an iframe.
+          </p>
+          <Frame src="https://my-pomodoro.netlify.app/app2"></Frame>
           {data.allMarkdownRemark.edges
             .filter(({ node }) => {
               const rawDate = node.frontmatter.rawDate;

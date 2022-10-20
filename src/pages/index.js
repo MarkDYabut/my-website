@@ -10,46 +10,6 @@ const ArticleDate = styled.h4`
   color: #606060;
 `;
 
-const Frame = styled.iframe`
-  border-style: none;
-  width: 100%;
-  height 500px;
-
-  -moz-border-radius: 12px;
-  -webkit-border-radius: 12px;border-radius: 12px;
-  -moz-box-shadow: 4px 4px 14px #000;
-  -webkit-box-shadow: 4px 4px 14px #000;
-  box-shadow: 4px 4px 14px #000;
-  -moz-transform:rotate(2deg);
-  // -webkit-transform:rotate(-3deg);
-  -o-transform:rotate(2deg);
-  -ms-transform:rotate(2deg);
-  
-  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.1);
-`
-
-const Frame2 = styled.iframe`
-  border-style: none;
-  width: 100%;
-  height: 100%;
-
-  @media(min-width: 500px) {
-    height: 375px;
-  }
-
-  -moz-border-radius: 12px;
-  -webkit-border-radius: 12px;border-radius: 12px;
-  -moz-box-shadow: 4px 4px 14px #000;
-  -webkit-box-shadow: 4px 4px 14px #000;
-  box-shadow: 4px 4px 14px #000;
-  // -moz-transform:rotate(2deg);
-  // -webkit-transform:rotate(3deg);
-  // -o-transform:rotate(2deg);
-  // -ms-transform:rotate(2deg);
-  
-  // filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=-.1);
-`
-
 const MarkerHeader = styled.h3`
   display: inline;
   border-radius: 1em 0 1em 0;
@@ -72,6 +32,15 @@ const NavLink = styled(Link)`
 `;
 
 const IndexPage = ({ data }) => {
+
+  const askUser = url => {
+    if (window.confirm("This link will open in a new tab, Continue?")) {
+      window.open(url, '_blank', 'noopener, noreferrer');
+    } else {
+      console.log("user cancelled")
+    }
+  }
+
   return (
     <>
       <SEO title="Home" keywords={[`Mark Yabut`, `about`, `index`]} />
@@ -111,24 +80,18 @@ const IndexPage = ({ data }) => {
             {" "}that I don't really use, but I keep the spirit alive through my hobbies. 
           </p>
           <p>
-            I like making things.
+            I like making  
+            {" "}           
+            <a 
+              href='javascript:;'
+              onClick={() => askUser(
+              '/project')}>
+              things.
+            </a>
+            {" "}
+            But don't press that "things" link if you are worried about a 40-50mb render or if you are trying to navigate to it
+            from an embedded browser such as the one inside of Instagram (it will crash).
           </p>
-          <p>
-            Below is a react three fiber project that I refactored into a gatsby application. Just now got
-            into the three.js space and been having a lot of fun, it will definitely keep me occupied for the rest of 2022.
-            Note: you can manipulate the render with mouse/click/finger actions.
-          </p>
-          <p><i>***Disclosure: it is going to be a 40-50mb render so I suggest not refreshing the page (hence the long load). - I will try and prioritize 
-            adding a proper disclosure that asks for user input before rendering.</i></p>
-          <Frame2 src="https://hilarious-croissant-c19f8a.netlify.app/r3f-2"></Frame2>
-          <p>
-            Below is a cool little timer application I initially built in F2020. It is built with the same {" "}
-            <Link to="tech/this-website-was-built-with-gatsby">technologies</Link> {" "}
-            as this website, configured as a {" "}
-            <Link to="tech/progressive-web-applications">progressive web application</Link> 
-            {""}, contains 2 apps and has been inserted into this application as an iframe.
-          </p>
-          <Frame src="https://my-pomodoro.netlify.app/app2"></Frame>
           <p>
             I also spend time writing about what i've learned while working in
             tech as I believe that:
