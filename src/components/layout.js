@@ -16,11 +16,11 @@ const Content = styled.div`
 `;
 
 const NavLink = styled(Link)`
-  padding: 0 0.3rem 0;
+  padding: 0 0.4rem 0;
 `;
 
 const RegLink = styled.a`
-  padding: 0 1.0875rem 1rem;
+  padding: 0 0.4rem 0;
 `;
 
 const Footer = styled.div`
@@ -71,13 +71,13 @@ const Layout = ({ children, hideHeader }) => (
     render={(data) => (
       <>
         <p></p>
-        {
-          !hideHeader && 
+        {/* {
+          !hideHeader &&
           <>
             <Header />
             <hr />
           </>
-        }
+        } */}
         <Content>
           <main>{children}</main>
           <hr />
@@ -93,20 +93,35 @@ const Layout = ({ children, hideHeader }) => (
               linkedin
             </RegLink>
             <NavLink
+              to="/"
+            >
+              home
+            </NavLink>
+            <NavLink
+              to="/tech"
+            >
+              tech
+            </NavLink>
+            <NavLink
+              to="/lifestyle"
+            >
+              lifestyle
+            </NavLink>
+            <NavLink
               to="/poc"
             >
-              proofs
+              other
             </NavLink>
-            <RegLink
+            {/* <RegLink
               href="https://www.instagram.com/markyabut3/"
               target="_blank"
             >
               instagram
-            </RegLink>
+            </RegLink> */}
             {/* <NavLink to="/youtube">Youtube</NavLink> */}
 
           </BottomLinks>
-
+          <br />
           <hr />
 
           {data.graphqlGitInfo.edges.map(({ node }) => (
@@ -119,7 +134,7 @@ const Layout = ({ children, hideHeader }) => (
                   href="https://github.com/MarkDYabut/my-website/commits/master"
                   target="_blank"
                 >
-                github commit history
+                  github commit history
                 </a>
               </Footer>
             </>
