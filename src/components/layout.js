@@ -6,6 +6,7 @@ import Header from "./header";
 import "./layout.css";
 import { Link } from "gatsby";
 import GitInfo from 'react-git-info/macro';
+import Slide from "./animators/slide";
 
 
 const Content = styled.div`
@@ -81,49 +82,48 @@ const Layout = ({ children, hideHeader }) => (
         <Content>
           <main>{children}</main>
           <hr />
-
           <BottomLinks>
-            {/* <RegLink href="https://my-pomodoro.netlify.app/" target="_blank">
+            <>
+              {/* <RegLink href="https://my-pomodoro.netlify.app/" target="_blank">
               Tools
             </RegLink> */}
-            <RegLink
-              href="https://www.linkedin.com/in/mark-yabut-218018152/"
-              target="_blank"
-            >
-              linkedin
-            </RegLink>
-            <NavLink
-              to="/"
-            >
-              home
-            </NavLink>
-            <NavLink
-              to="/tech"
-            >
-              tech
-            </NavLink>
-            <NavLink
-              to="/lifestyle"
-            >
-              lifestyle
-            </NavLink>
-            <NavLink
-              to="/poc"
-            >
-              other
-            </NavLink>
-            {/* <RegLink
+              <RegLink
+                href="https://www.linkedin.com/in/mark-yabut-218018152/"
+                target="_blank"
+              >
+                linkedin
+              </RegLink>
+              <NavLink
+                to="/"
+              >
+                home
+              </NavLink>
+              <NavLink
+                to="/tech"
+              >
+                tech
+              </NavLink>
+              <NavLink
+                to="/lifestyle"
+              >
+                lifestyle
+              </NavLink>
+              <NavLink
+                to="/poc"
+              >
+                other
+              </NavLink>
+              {/* <RegLink
               href="https://www.instagram.com/markyabut3/"
               target="_blank"
             >
               instagram
             </RegLink> */}
-            {/* <NavLink to="/youtube">Youtube</NavLink> */}
-
+              {/* <NavLink to="/youtube">Youtube</NavLink> */}
+            </>
           </BottomLinks>
           <br />
           <hr />
-
           {data.graphqlGitInfo.edges.map(({ node }) => (
             <>
               <Footer>modified on: {gitInfo.commit.date}</Footer>
@@ -143,9 +143,9 @@ const Layout = ({ children, hideHeader }) => (
           <hr />
 
           <Footer>
-            <p>
-              built with<NavLink to="/tech/this-website-was-built-with-gatsby">gatsby</NavLink>
-            </p>
+            <Slide>
+              <p>built with<NavLink to="/tech/this-website-was-built-with-gatsby">gatsby</NavLink></p>
+            </Slide>
           </Footer>
         </Content>
       </>

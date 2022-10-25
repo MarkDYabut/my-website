@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Link } from "gatsby";
 import { css } from "@emotion/core";
+import Slide from "../components/animators/slide";
 
 const ArticleDate = styled.h4`
   display: inline;
@@ -46,7 +47,7 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" keywords={[`Mark Yabut`, `about`, `index`]} />
       <Layout hideHeader={true}>
         <Content>
-          <h1>Mark Dyllan Yabut</h1>
+          <Slide><h1>Mark Yabut</h1></Slide>
           <p>
             <i>
               "Advice is really your current-self talking to your former-self."

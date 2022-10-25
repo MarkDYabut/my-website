@@ -11,8 +11,9 @@ const Content = styled.div`
 `
 
 const MarkedHeader = styled.h1`
-  display: inline;
+  font-size: 30px;
   border-radius: 1em 0 1em 0;
+  text-align: center;
 `
 
 const HeaderDate = styled.h3`

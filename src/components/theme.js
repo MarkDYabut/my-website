@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 
-import './theme.css';
 import { StyledButton1, StyledButton2 } from "../components/buttons/button1";
 
 const StyledDivLight = styled.div`
