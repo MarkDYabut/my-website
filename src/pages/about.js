@@ -5,7 +5,6 @@ import SEO from "../components/seo";
 import { Link } from "gatsby";
 import { useInView } from 'react-intersection-observer';
 import { keyframes, css } from "@emotion/core";
-import Rocket from "../components/animators/rocket";
 import Slide from "../components/animators/slide";
 
 // import "./about.css"
