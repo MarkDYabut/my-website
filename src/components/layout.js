@@ -8,6 +8,20 @@ import { Link } from "gatsby";
 import GitInfo from 'react-git-info/macro';
 import Slide from "./animators/slide";
 
+import { createGlobalStyle } from 'styled-components'
+const GlobalStyle = createGlobalStyle`
+* {
+    @import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* background-image: url("https://media3.giphy.com/media/Byour3OgR0nWnRR6Tc/giphy.gif?cid=ecf05e4722ks8wa4i6sg1mgbq786bsyhbuhcc0lifqbfua8g&rid=giphy.gif&ct=g"); */
+    /* background-image: url("https://media4.giphy.com/media/Cv7wrQjYcd6hO/giphy.gif?cid=790b76111e1eb9ac58c668894944df3fc1437ec2552592ae&rid=giphy.gif&ct=g"); */
+    background-image: url("https://media0.giphy.com/media/Ohv997ZtdeX0rpfVMm/giphy.gif?cid=790b76115a7b05f426d5e21dd3ad7023685b6271f9f1fa12&rid=giphy.gif&ct=g");
+    background-repeat:  repeat;
+    background-size: cover;
+}}`
+
 
 const Content = styled.div`
   margin: 0 auto;
@@ -71,6 +85,7 @@ const Layout = ({ children, hideHeader }) => (
     `}
     render={(data) => (
       <>
+        <GlobalStyle />
         <p></p>
         {/* {
           !hideHeader &&
