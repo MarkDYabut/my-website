@@ -15,7 +15,7 @@ const Content = styled.div`
 const Frame = styled.iframe`
   border-style: none;
   width: 100%;
-  height 500px;
+  height: 500px;
 `
 
 const DivSpaced = styled.div`

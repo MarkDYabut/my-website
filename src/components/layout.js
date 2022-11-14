@@ -17,9 +17,10 @@ body{
     font-family: 'Open Sans', sans-serif;
     /* background-image: url("https://media3.giphy.com/media/Byour3OgR0nWnRR6Tc/giphy.gif?cid=ecf05e4722ks8wa4i6sg1mgbq786bsyhbuhcc0lifqbfua8g&rid=giphy.gif&ct=g"); */
     /* background-image: url("https://media4.giphy.com/media/Cv7wrQjYcd6hO/giphy.gif?cid=790b76111e1eb9ac58c668894944df3fc1437ec2552592ae&rid=giphy.gif&ct=g"); */
-    background-image: url("rick-morty-gif.webp");
+    background-image: url("rick-morty-gif.gif");
     background-repeat:  repeat;
     background-size: cover;
+    height: 100vh;
 }}`
 
 
@@ -56,7 +57,7 @@ console.log(gitInfo.commit.hash);
 console.log(gitInfo.commit.message);
 console.log(gitInfo.commit.shortHash);
 
-const Layout = ({ children, hideHeader }) => (
+const Layout = ({ children, hideHeader, showBackground }) => (
   <StaticQuery
     query={graphql`
     {
@@ -85,8 +86,7 @@ const Layout = ({ children, hideHeader }) => (
     `}
     render={(data) => (
       <>
-        <GlobalStyle />
-        <p></p>
+        {showBackground && <GlobalStyle />}
         {/* {
           !hideHeader &&
           <>

@@ -17,7 +17,7 @@ const Slide = ({ children, type }) => {
     });
 
     return (
-        <div ref={ref}>s
+        <div ref={ref}>
             {<div css={inView && css`animation: ${animation} 1s forwards;`}>
                 {children}
             </div>
