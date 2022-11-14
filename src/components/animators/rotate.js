@@ -6,8 +6,18 @@ const animation = keyframes`
     0% {
         transform: rotate(0deg);
     }
+    40% {
+        transform: rotate(700deg);
+    }
+    50% {
+        transform: rotate(720deg);
+        transform: translateX(5%);
+    }
+    90% {
+        transform: rotate(20deg);
+    }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
 `
 
@@ -18,7 +28,7 @@ const Rotate = ({ children, type }) => {
 
     return (
         <div ref={ref}>
-            {<div css={inView && css`animation: ${animation} 5s linear infinite;`}>
+            {<div css={inView && css`animation: ${animation} 10s linear infinite;`}>
                 {children}
             </div>
             }

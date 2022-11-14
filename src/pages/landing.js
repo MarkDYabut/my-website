@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Link } from "gatsby";
 import Rotate from "../components/animators/rotate";
+import Marquee from "../components/animators/marquee";
 
 const Content = styled.div`
   margin: 0 auto;
@@ -11,7 +12,7 @@ const Content = styled.div`
   padding: 1.45rem 1.0875rem;
 `;
 
-const StyledSpan = styled.p`
+const StyledDiv2 = styled.div`
   display: flex;
   justify-content: center;
   text-align: center;
@@ -44,17 +45,21 @@ const Landing = () => (
     <Layout>
       <Content>
         <h1>Landing</h1>
-        <StyledSpan>
-          work in progress as always
-        </StyledSpan>
+        <p css={{textAlign:"center"}}>
+          work in progress as always🙏
+        </p>
         <Rotate>
           😈🌎🎒
         <StyledImg src={"/me.webp"}/>
-          🚀90
+          94🚀90
         </Rotate>
-        <StyledSpan>
-          ...
-        </StyledSpan>
+        <StyledDiv2>
+        <Marquee>
+          <span>
+          don't worry, you'll think of something - don't worry, you'll think of something - don't worry, you'll think of something -  don't worry, you'll think of something - don't worry, you'll think of something - 
+          </span>
+        </Marquee>
+        </StyledDiv2>
       </Content>
     </Layout>
   </StyledDiv>

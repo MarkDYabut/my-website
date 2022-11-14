@@ -4,7 +4,8 @@ import { useInView } from 'react-intersection-observer';
 
 const animation = keyframes`
   0% { left: 0; }
-  100% { left: -100%; }
+  50% { left: -200%; }
+  100% { left: 0;}
 `
 
 const Marquee = ({ children, type }) => {
@@ -12,14 +13,14 @@ const Marquee = ({ children, type }) => {
     return (
         <div css={css`
             height: 25px;
-            width: 85vw;
+            width: 80%;
             overflow: hidden;
             position: relative;
         `}>
             <div css={css`
-                animation: ${animation} 2s linear;
+                animation: ${animation} 10s linear infinite;
                 display: block;
-                width: 1000%;
+                width: 300%;
                 height: 30px;
                 position: absolute;
                 overflow: hidden;
