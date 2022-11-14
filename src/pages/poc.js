@@ -50,7 +50,6 @@ const ButtonStyled = styled.button`
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-
 &:before {
   content: "";
   background: linear-gradient(
@@ -118,6 +117,19 @@ const Poc = () => {
             you can try sending me a message  <Link to="/contact">here</Link>.
           </p>
           <DivSpaced>
+            <h3>Implementing iframes to get my other projects into here</h3>
+            <p>
+              Below is some timers I made inside a gatsby starter app.
+              This application is actually hosted on a different domain but i'm able to embedd them into this application
+              through the use of iframes.
+            </p>
+            <p>
+              <ButtonStyled onClick={() => openInNewTab('https://github.com/MarkDYabut/pomodoro')}>Source Code</ButtonStyled>
+            </p>
+            <Frame src="https://my-pomodoro.netlify.app/app"></Frame>
+            <Frame src="https://my-pomodoro.netlify.app/app2"></Frame>
+          </DivSpaced>
+          <DivSpaced>
             <h3>Implementing a dark theme</h3>
             <Theme button={2}>
               <p>stuff in here is the children to the theme component</p>
@@ -149,19 +161,6 @@ const Poc = () => {
               Nothing crazy here, just utilizing window.confirm() and window.open().
             </p>
             <ButtonStyled onClick={() => openInNewTab('https://www.google.ca/')}>Link</ButtonStyled>
-          </DivSpaced>
-          <DivSpaced>
-            <h3>Implementing iframes to get my other projects into here</h3>
-            <p>
-              Below is some timers I made inside a gatsby starter app.
-              This application is actually hosted on a different domain but i'm able to embedd them into this application
-              through the use of iframes.
-            </p>
-            <p>
-              <ButtonStyled onClick={() => openInNewTab('https://github.com/MarkDYabut/pomodoro')}>Source Code</ButtonStyled>
-            </p>
-            <Frame src="https://my-pomodoro.netlify.app/app"></Frame>
-            <Frame src="https://my-pomodoro.netlify.app/app2"></Frame>
           </DivSpaced>
         </Content>
       </Theme>
