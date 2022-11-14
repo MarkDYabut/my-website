@@ -4,20 +4,20 @@ import { useInView } from 'react-intersection-observer';
 
 const animation = keyframes`
     0% {
-        transform: rotate(0deg);
+        transform: rotate(0deg) translateX(0%);
     }
     40% {
-        transform: rotate(700deg);
+        transform: rotate(700deg) translateX(25%);
     }
     50% {
-        transform: rotate(720deg);
-        transform: translateX(5%);
+        transform: rotate(720deg) translateX(0%);
     }
     90% {
-        transform: rotate(20deg);
+        transform: rotate(20deg) translateX(25%);
+        
     }
     100% {
-        transform: rotate(0deg);
+        transform: rotate(0deg) translateX(0%);
     }
 `
 
