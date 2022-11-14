@@ -16,8 +16,8 @@ const GlobalStyle = createGlobalStyle`
 body{
     font-family: 'Open Sans', sans-serif;
     /* background-image: url("https://media3.giphy.com/media/Byour3OgR0nWnRR6Tc/giphy.gif?cid=ecf05e4722ks8wa4i6sg1mgbq786bsyhbuhcc0lifqbfua8g&rid=giphy.gif&ct=g"); */
-    /* background-image: url("https://media4.giphy.com/media/Cv7wrQjYcd6hO/giphy.gif?cid=790b76111e1eb9ac58c668894944df3fc1437ec2552592ae&rid=giphy.gif&ct=g"); */
-    background-image: url("rick-morty-gif.gif");
+    background-image: url("https://media4.giphy.com/media/Cv7wrQjYcd6hO/giphy.gif?cid=790b76111e1eb9ac58c668894944df3fc1437ec2552592ae&rid=giphy.gif&ct=g");
+    /* background-image: url("rick-morty-gif.gif"); */
     background-repeat:  repeat;
     background-size: cover;
     height: 100vh;
@@ -126,7 +126,7 @@ const Layout = ({ children, hideHeader, showBackground }) => (
               <NavLink
                 to="/poc"
               >
-                other
+                poc
               </NavLink>
               {/* <RegLink
               href="https://www.instagram.com/markyabut3/"

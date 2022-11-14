@@ -1,5 +1,5 @@
 ---
-title: "Why Notion changed my life"
+title: "Why notion changed my life"
 date: "2020-07-03"
 draft: false
 category: "lifestyle"

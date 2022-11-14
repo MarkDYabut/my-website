@@ -4,21 +4,21 @@ import { useInView } from 'react-intersection-observer';
 
 const animation = keyframes`
     0% {
-        transform: translateX(-900px);
+        transform: rotate(0deg);
     }
     100% {
-        transform: translateX(0);
+        transform: rotate(360deg);
     }
 `
 
-const Slide = ({ children, direction }) => {
+const Rotate = ({ children, type }) => {
     const { ref, inView, entry } = useInView({
         threshold: 0,
     });
 
     return (
         <div ref={ref}>
-            {<div css={inView && css`animation: ${animation} 1s forwards;`}>
+            {<div css={inView && css`animation: ${animation} 5s linear infinite;`}>
                 {children}
             </div>
             }
@@ -26,4 +26,4 @@ const Slide = ({ children, direction }) => {
     )
 }
 
-export default Slide;
+export default Rotate;
