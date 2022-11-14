@@ -114,20 +114,20 @@ const Layout = ({ children, hideHeader, showBackground }) => (
                 home
               </NavLink>
               <NavLink
-                to="/tech"
+                to="/blog"
               >
-                tech
-              </NavLink>
-              <NavLink
-                to="/lifestyle"
-              >
-                lifestyle
+                blog
               </NavLink>
               <NavLink
                 to="/poc"
               >
                 poc
               </NavLink>
+              {/* <NavLink
+                to="/contact"
+              >
+                contact
+              </NavLink> */}
               {/* <RegLink
               href="https://www.instagram.com/markyabut3/"
               target="_blank"
