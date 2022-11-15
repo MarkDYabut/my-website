@@ -100,6 +100,7 @@ const StyledTextArea = styled.textarea`
 
 const IndexPage = () => {
   const [formState, setFormState] = useState({
+    thoughts:"",
     name: "",
     contact: "",
     message: "",
@@ -146,6 +147,16 @@ const IndexPage = () => {
           >
             <input type="hidden" name="form-name" value="contact" />
             <h1>Talk To Me</h1>
+            <label htmlFor="thoughts">Thoughts</label>
+            <StyledInput
+              id="thoughts"
+              type="text"
+              name="thoughts"
+              onChange={handleChange}
+              value={formState.thoughts}
+              placeholder="Enter thoughts"
+              css={{backgroundColor: "#b5ffb5"}}
+            />
             <label htmlFor="name">Name</label>
             <StyledInput
               id="name"
