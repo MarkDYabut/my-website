@@ -4,20 +4,20 @@ import { useInView } from 'react-intersection-observer';
 
 const animation = keyframes`
     0% {
-        transform: rotate(0deg) translateX(0%);
+        transform: rotate(0deg) translateX(0%) scale(1.0);
     }
     40% {
         transform: rotate(700deg) translateX(25%);
     }
     50% {
-        transform: rotate(720deg) translateX(0%);
+        transform: rotate(720deg) translateX(0%) scale(2.0);
     }
     90% {
         transform: rotate(20deg) translateX(25%);
         
     }
     100% {
-        transform: rotate(0deg) translateX(0%);
+        transform: rotate(0deg) translateX(0%) scale(1.0);
     }
 `
 
@@ -28,7 +28,7 @@ const Rotate = ({ children, type }) => {
 
     return (
         <div ref={ref}>
-            {<div css={inView && css`animation: ${animation} 10s linear infinite;`}>
+            {<div css={inView && css`animation: ${animation} 20s linear infinite;`}>
                 {children}
             </div>
             }
