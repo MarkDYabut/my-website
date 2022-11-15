@@ -7,6 +7,7 @@ import Rotate from "../components/animators/rotate";
 import Marquee from "../components/animators/marquee";
 import Explode from "../components/animators/explode";
 import Slide from "../components/animators/slide";
+import Emojis from "../components/emojis";
 
 const Content = styled.div`
   margin: 0 auto;
@@ -46,6 +47,7 @@ const Landing = () => (
   <StyledDiv>
     <Layout>
       <Content>
+        <Emojis />
       <Slide>
         <h1>Landing</h1>
       </Slide>

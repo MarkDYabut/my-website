@@ -5,6 +5,7 @@ import SEO from "../components/seo";
 import { Link } from "gatsby";
 import { css } from "@emotion/core";
 import Slide from "../components/animators/slide";
+import Emojis from "../components/emojis";
 
 const ArticleDate = styled.h4`
   display: inline;
