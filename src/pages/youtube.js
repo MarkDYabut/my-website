@@ -3,6 +3,7 @@ import styled from "@emotion/styled";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { Link } from "gatsby";
+import Emojis from "../components/emojis";
 
 const Content = styled.div`
   margin: 0 auto;
@@ -16,6 +17,7 @@ const Youtube = () => (
       <Content>
         <h1>Jokes...</h1>
         <p>Coming soon though</p>
+        <Emojis />
       </Content>
     </Layout>
   </>
