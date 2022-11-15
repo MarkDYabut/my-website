@@ -5,6 +5,8 @@ import SEO from "../components/seo";
 import { Link } from "gatsby";
 import Rotate from "../components/animators/rotate";
 import Marquee from "../components/animators/marquee";
+import Explode from "../components/animators/explode";
+import Slide from "../components/animators/slide";
 
 const Content = styled.div`
   margin: 0 auto;
@@ -44,9 +46,12 @@ const Landing = () => (
   <StyledDiv>
     <Layout>
       <Content>
+      <Slide>
         <h1>Landing</h1>
+      </Slide>
         <p css={{textAlign:"center"}}>
-          work in progress as always🙏
+          work in progress as always
+          <Explode>🙏</Explode>
         </p>
         <Rotate>
           😈🌎🎒
