@@ -107,7 +107,7 @@ const Poc = () => {
     <>
       <SEO title="Proofs of Concepts" keywords={[`proofs`, `poc`]} />
       <Layout>
-      <Theme button={1}>
+      {/* <Theme button={1}> */}
         <Content>
           <h1>Proofs of concepts aka. POC</h1>
           <h2>Below are little processes that are either experimental or live.</h2>
@@ -171,7 +171,7 @@ const Poc = () => {
             <ButtonStyled onClick={() => openInNewTab('https://www.google.ca/')}>Link</ButtonStyled>
           </DivSpaced>
         </Content>
-      </Theme>
+      {/* </Theme> */}
       </Layout>
     </>
   )
