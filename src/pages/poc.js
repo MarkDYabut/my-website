@@ -117,6 +117,14 @@ const Poc = () => {
             you can try sending me a message  <Link to="/contact">here</Link>.
           </p>
           <DivSpaced>
+            <h3>Embedding Spline animations into here</h3>
+            <Frame src="https://my.spline.design/untitled-f0845f74992fc4c8bb1237fbe833bc1f/"></Frame>
+            <div css={{width: "101%", height:"70px", position:"relative",left:"-1px", bottom:"90px", backgroundColor:"#fff", textAlign:"center"}}>
+              <br/>Above is an animation built in Spline that I embedded inside of here through the use of an iframe. 
+              You can click and manipulate the it. 2 touches for orbit and 3 touches for pan (on mobile).
+              </div>
+          </DivSpaced>
+          <DivSpaced>
             <h3>Implementing iframes to get my other projects into here</h3>
             <p>
               Below is some timers I made inside a gatsby starter app.

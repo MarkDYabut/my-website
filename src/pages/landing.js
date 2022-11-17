@@ -48,24 +48,24 @@ const Landing = () => (
     <Layout>
       <Content>
         <Emojis />
-      <Slide>
-        <h1>Landing</h1>
-      </Slide>
-        <p css={{textAlign:"center"}}>
+        <Slide>
+          <h1>Landing</h1>
+        </Slide>
+        <p css={{ textAlign: "center" }}>
           work in progress as always
           <Explode>🙏</Explode>
         </p>
         <Rotate>
           😈🌎🎒
-        <StyledImg src={"/me.webp"}/>
+          <StyledImg src={"/me.webp"} />
           94🚀90
         </Rotate>
         <StyledDiv2>
-        <Marquee>
-          <span>
-          don't worry, you'll think of something - don't worry, you'll think of something - don't worry, you'll think of something -  don't worry, you'll think of something - don't worry, you'll think of something - 
-          </span>
-        </Marquee>
+          <Marquee>
+            <span>
+              don't worry, you'll think of something - don't worry, you'll think of something - don't worry, you'll think of something -  don't worry, you'll think of something - don't worry, you'll think of something -
+            </span>
+          </Marquee>
         </StyledDiv2>
       </Content>
     </Layout>
