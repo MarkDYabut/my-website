@@ -72,7 +72,7 @@ const Landing = () => (
             </Marquee>
           </StyledDiv2>
           <Frame src="https://my.spline.design/untitled-f0845f74992fc4c8bb1237fbe833bc1f/"></Frame>
-          <div css={{ width: "101%", height: "70px", position: "relative", left: "-1px", bottom: "90px", backgroundColor: "#fff", textAlign: "center" }}>
+          <div style={{ width: "101%", height: "70px", position: "relative", left: "-1px", bottom: "90px", backgroundColor: "#fff", textAlign: "center" }}>
             {/* <br/>          work in progress as always */}
             <Explode>🙏</Explode>        <Rotate>
               😈🌎🎒
@@ -87,7 +87,7 @@ const Landing = () => (
       </Layout>
     </StyledDiv>
     <StyledToolbar>
-      <img src={"/Untitled.png"} />
+      {/* <img src={"/Untitled.png"} /> */}
     </StyledToolbar>
   </>
 );

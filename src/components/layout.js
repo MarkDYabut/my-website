@@ -137,7 +137,7 @@ const Layout = ({ children, hideHeader, showBackground }) => (
               {/* <NavLink to="/youtube">Youtube</NavLink> */}
             </>
           </BottomLinks>
-          <br />
+          <img style={{ width:"100vw",position:"relative"}} src={"/Untitled.png"} />
           <hr />
           {data.graphqlGitInfo.edges.map(({ node }) => (
             <>
