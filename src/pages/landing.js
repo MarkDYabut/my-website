@@ -24,7 +24,7 @@ const StyledDiv2 = styled.div`
 const Frame = styled.iframe`
   border-style: none;
   width: 100%;
-  height: 300px;
+  height: 50vh;
 `
 
 const StyledImg = styled.img`
@@ -33,6 +33,12 @@ const StyledImg = styled.img`
   display: block;
   margin-left: auto;
   margin-right: auto;
+`
+
+const StyledToolbar = styled.div`
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
 `
 
 const StyledDiv = styled.div`
@@ -50,35 +56,40 @@ const StyledDiv = styled.div`
   `
 
 const Landing = () => (
-  <StyledDiv>
-    <Layout>
-      <Content>
-        <Emojis />
-        {/* <Slide> */}
-        {/* </Slide> */}
-        <StyledDiv2>
-        <h1 style={{textAlign:"center",position:"absolute"}}>Landing</h1>
-          <Marquee>
-            <span style={{position:"absolute"}}>
-              🚅 - don't worry, you'll think of something - don't worry, you'll think of something - don't worry, you'll think of something -  don't worry, you'll think of something - don't worry, you'll think of something -
-            </span>
-          </Marquee>
-        </StyledDiv2>
-        <Frame src="https://my.spline.design/untitled-f0845f74992fc4c8bb1237fbe833bc1f/"></Frame>
-            <div css={{width: "101%", height:"70px", position:"relative",left:"-1px", bottom:"90px", backgroundColor:"#fff", textAlign:"center"}}>
-              {/* <br/>          work in progress as always */}
-              <Explode>🙏</Explode>        <Rotate>
-          😈🌎🎒
-          <StyledImg src={"/me.webp"} />
-          94🚀90<br/>
-          🔥🔥🔥
-        </Rotate>
+  <>
+    <StyledDiv>
+      <Layout>
+        <Content>
+          <Emojis />
+          {/* <Slide> */}
+          {/* </Slide> */}
+          <StyledDiv2>
+            <h1 style={{ textAlign: "center", position: "absolute" }}>Landing</h1>
+            <Marquee>
+              <span style={{ position: "absolute" }}>
+                🚅 - don't worry, you'll think of something - don't worry, you'll think of something - don't worry, you'll think of something -  don't worry, you'll think of something - don't worry, you'll think of something -
+              </span>
+            </Marquee>
+          </StyledDiv2>
+          <Frame src="https://my.spline.design/untitled-f0845f74992fc4c8bb1237fbe833bc1f/"></Frame>
+          <div css={{ width: "101%", height: "70px", position: "relative", left: "-1px", bottom: "90px", backgroundColor: "#fff", textAlign: "center" }}>
+            {/* <br/>          work in progress as always */}
+            <Explode>🙏</Explode>        <Rotate>
+              😈🌎🎒
+              <StyledImg src={"/me.webp"} />
+              94🚀90<br />
+              🔥🔥🔥
+            </Rotate>
 
-            </div>
+          </div>
 
-      </Content>
-    </Layout>
-  </StyledDiv>
+        </Content>
+      </Layout>
+    </StyledDiv>
+    <StyledToolbar>
+      <img src={"/Untitled.png"} />
+    </StyledToolbar>
+  </>
 );
 
 export default Landing;
