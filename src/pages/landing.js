@@ -21,6 +21,12 @@ const StyledDiv2 = styled.div`
   text-align: center;
 `
 
+const Frame = styled.iframe`
+  border-style: none;
+  width: 100%;
+  height: 300px;
+`
+
 const StyledImg = styled.img`
   height: 5vh;
   border-radius: 100%;
@@ -36,10 +42,10 @@ const StyledDiv = styled.div`
   /* background-image: url("https://media0.giphy.com/media/Ohv997ZtdeX0rpfVMm/giphy.gif?cid=ecf05e47ktn3a8k7t3t5ht0b3wvquf89kj690pxvnqx7jygb&rid=giphy.gif&ct=g"); */
   /* background-image: url("https://media1.giphy.com/media/StuRkmXcnKcyGWzu1K/giphy.gif?cid=ecf05e47fzpm6nljpbdempewn9to5u2yx4y0gnzezn4y0vj3&rid=giphy.gif&ct=g"); */
   background-image: url("https://i.giphy.com/media/yoJC2pxpca0K6v67qo/giphy.webp");
-  height: 100vh;
+  height: 150vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 50vh;
+  background-size: 100h;
   background-position: 50% 120%;
   `
 
@@ -48,25 +54,28 @@ const Landing = () => (
     <Layout>
       <Content>
         <Emojis />
-        <Slide>
-          <h1>Landing</h1>
-        </Slide>
-        <p css={{ textAlign: "center" }}>
-          work in progress as always
-          <Explode>🙏</Explode>
-        </p>
-        <Rotate>
-          😈🌎🎒
-          <StyledImg src={"/me.webp"} />
-          94🚀90
-        </Rotate>
+        {/* <Slide> */}
+        {/* </Slide> */}
         <StyledDiv2>
+        <h1 style={{textAlign:"center",position:"absolute"}}>Landing</h1>
           <Marquee>
-            <span>
-              don't worry, you'll think of something - don't worry, you'll think of something - don't worry, you'll think of something -  don't worry, you'll think of something - don't worry, you'll think of something -
+            <span style={{position:"absolute"}}>
+              🚅 - don't worry, you'll think of something - don't worry, you'll think of something - don't worry, you'll think of something -  don't worry, you'll think of something - don't worry, you'll think of something -
             </span>
           </Marquee>
         </StyledDiv2>
+        <Frame src="https://my.spline.design/untitled-f0845f74992fc4c8bb1237fbe833bc1f/"></Frame>
+            <div css={{width: "101%", height:"70px", position:"relative",left:"-1px", bottom:"90px", backgroundColor:"#fff", textAlign:"center"}}>
+              {/* <br/>          work in progress as always */}
+              <Explode>🙏</Explode>        <Rotate>
+          😈🌎🎒
+          <StyledImg src={"/me.webp"} />
+          94🚀90<br/>
+          🔥🔥🔥
+        </Rotate>
+
+            </div>
+
       </Content>
     </Layout>
   </StyledDiv>
