@@ -67,7 +67,7 @@ const Landing = () => (
             <h1 style={{ textAlign: "center", position: "absolute" }}>Landing</h1>
             <Marquee>
               <span style={{ position: "absolute" }}>
-                🚅 - don't worry, you'll think of something - don't worry, you'll think of something - don't worry, you'll think of something -  don't worry, you'll think of something - don't worry, you'll think of something -
+                🚅 - worry less, you'll think of something - worry less, you'll think of something - worry less, you'll think of something -  worry less, you'll think of something - worry less, you'll think of something -
               </span>
             </Marquee>
           </StyledDiv2>
