@@ -30,7 +30,7 @@ const ReadingTime = styled.h5`
 const Frame = styled.iframe`
   border-style: none;
   width: 100%;
-  height 500px;
+  height: 500px;
 
   -moz-border-radius: 12px;
   -webkit-border-radius: 12px;border-radius: 12px;

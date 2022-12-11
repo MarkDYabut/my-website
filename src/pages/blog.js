@@ -143,7 +143,7 @@ export const query = graphql`
     }
   }
   lifestyle: allMarkdownRemark(
-    limit: 2
+    limit: 5
     sort: { fields: [frontmatter___date], order: DESC }
     filter: {
       frontmatter: { category: { eq: "lifestyle" }, draft: { eq: false } }
@@ -170,7 +170,7 @@ export const query = graphql`
     }
   }
  tech: allMarkdownRemark(
-    limit: 2
+    limit: 5
     sort: { fields: [frontmatter___date], order: DESC }
     filter: {
       frontmatter: { category: { eq: "tech" }, draft: { eq: false } }
@@ -197,7 +197,7 @@ export const query = graphql`
     }
   }
   project: allMarkdownRemark(
-    limit: 2
+    limit: 5
     sort: { fields: [frontmatter___date], order: DESC }
     filter: {
       frontmatter: { category: { eq: "project" }, draft: { eq: false } }
