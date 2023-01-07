@@ -126,6 +126,11 @@ const Layout = ({ children, hideHeader, showBackground }) => (
               >
                 poc
               </NavLink>
+              <NavLink
+                to="/landing"
+              >
+                landing
+              </NavLink>
               {/* <NavLink
                 to="/contact"
               >
