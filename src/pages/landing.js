@@ -35,6 +35,14 @@ const StyledImg = styled.img`
   margin-right: auto;
 `
 
+const StyledImg2 = styled.img`
+  height: 5vh;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+`
+
 const StyledToolbar = styled.div`
   position: fixed;
   bottom: 0px;
@@ -74,11 +82,21 @@ const Landing = () => (
           <Frame src="https://my.spline.design/untitled-f0845f74992fc4c8bb1237fbe833bc1f/"></Frame>
           <div style={{ width: "101%", height: "70px", position: "relative", left: "-1px", bottom: "90px", backgroundColor: "#fff", textAlign: "center" }}>
             {/* <br/>          work in progress as always */}
-            <Explode>🙏</Explode>        <Rotate>
-              😈🌎🎒
+            <Explode>
+              🙏
+            </Explode>
+
+            <Rotate>
+              <StyledImg2 src={"/spaceship-head.png"} />
+              |😈🌎🎒|
               <StyledImg src={"/me.webp"} />
-              94🚀90<br />
+              |94🚀90|
+              <br />
               🔥🔥🔥
+              <br />
+              💨🔥💨
+              <br />
+              💨🔥💨
             </Rotate>
 
           </div>

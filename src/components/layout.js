@@ -33,10 +33,12 @@ const Content = styled.div`
 
 const NavLink = styled(Link)`
   padding: 0 0.4rem 0;
+  z-index: 100;
 `;
 
 const RegLink = styled.a`
   padding: 0 0.4rem 0;
+  z-index: 100;
 `;
 
 const Footer = styled.div`
@@ -48,6 +50,7 @@ const Footer = styled.div`
 const BottomLinks = styled.div`
   display: flex;
   justify-content: center;
+  z-index: 100;
 `;
 
 const gitInfo = GitInfo();
