@@ -106,8 +106,16 @@ const Layout = ({ children, hideHeader, showBackground }) => (
               Tools
             </RegLink> */}
               <RegLink
-                href="https://www.linkedin.com/in/mark-yabut-218018152/"
-                target="_blank"
+                href="https://www.linkedin.com/in/mark-yabut-218018152/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = "linkedin://in/mark-yabut-218018152";
+                  setTimeout(() => {
+                    window.location.href = "https://www.linkedin.com/in/mark-yabut-218018152/";
+                  }, 100);
+                }}
               >
                 linkedin
               </RegLink>
