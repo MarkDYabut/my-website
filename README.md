@@ -9,3 +9,7 @@ Domain from <a href="https://www.namecheap.com/" target="_blank">Namecheap</a>
 Deployed with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
 
 Content managed using <a href="https://www.netlifycms.org/" target="_blank">NetlifyCMS</a>
+
+# How to locally develop this site for my future self who won't remember
+1. nvm use
+2. npm run develop
