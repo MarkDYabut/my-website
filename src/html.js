@@ -15,7 +15,7 @@ export default function HTML(props) {
           name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
         />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
@@ -26,7 +26,6 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
       </body>
     </html>
   )
